@@ -1,4 +1,4 @@
-﻿"""Verify the deployed HTML without logging or archiving Scripture text."""
+"""Verify the deployed HTML without logging or archiving Scripture text."""
 import html
 import os
 import time
@@ -11,8 +11,14 @@ def verify(page, reading_date):
     if f'<meta name="reading-date" content="{reading_date.isoformat()}">' not in page:
         raise ValueError('Published date is incorrect')
     for ref in sum(load_plan()[schedule_key(reading_date)].values(), []):
-        if f'<h2>{html.escape(ref)} ' not in page:
+        if f'<h2>{html.escape(ref)}</h2>' not in page:
             raise ValueError(f'Missing reading: {ref}')
+    reading_body = page.split('<main>', 1)[1].split('<footer>', 1)[0]
+    if 'ESV' in reading_body:
+        raise ValueError('Repeated ESV labels in reading content')
+    for heading in ['Morning \u2014 Family Reading', 'Evening \u2014 Private Reading']:
+        if f'<h2>{heading}</h2>' not in reading_body:
+            raise ValueError(f'Missing chapter heading: {heading}')
     for required in ['Morning', 'Family Reading', 'Evening', 'Private Reading', 'ESV.org', 'Used by permission.']:
         if required not in page:
             raise ValueError(f'Missing page content: {required}')

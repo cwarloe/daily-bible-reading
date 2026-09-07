@@ -70,7 +70,8 @@ def fetch_passage(session: requests.Session, api_key: str, reference: str) -> st
             "include-footnotes": "false",
             "include-footnote-body": "false",
             "include-headings": "true",
-            "include-short-copyright": "true",
+            "include-short-copyright": "false",
+            "include-copyright": "false",
             "include-passage-horizontal-lines": "false",
             "include-heading-horizontal-lines": "false",
             "line-length": "0",
@@ -104,14 +105,14 @@ def reading_section(title: str, references: list[str], texts: list[str]) -> str:
     for reference, text in zip(references, texts, strict=True):
         passages.append(
             f'''<section class="passage">
-        <h2>{html.escape(reference)} <span class="translation">ESV</span></h2>
+        <h2>{html.escape(reference)}</h2>
         {text_to_html(text)}
       </section>'''
         )
-    return f'''<article class="reading">
-      <h1>{html.escape(title)}</h1>
+    return f'''<section class="reading">
+      <h2>{html.escape(title)}</h2>
       {''.join(passages)}
-    </article>'''
+    </section>'''
 
 
 def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str, list[str]]) -> str:
@@ -134,10 +135,9 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
     .document-title {{ margin:0; font-size:clamp(1.75rem, 6vw, 2.6rem); line-height:1.15; }}
     .date {{ margin:.45rem 0 3rem; color:var(--muted); }}
     .reading {{ margin:0 0 4rem; }}
-    .reading > h1 {{ padding-bottom:.45rem; border-bottom:2px solid var(--ink); font-size:1.65rem; }}
+    .reading > h2 {{ padding-bottom:.45rem; border-bottom:2px solid var(--ink); font-size:1.65rem; }}
     .passage {{ margin:2.5rem 0 3.25rem; }}
     .passage h2 {{ margin:0 0 1.2rem; font-size:1.35rem; }}
-    .translation {{ color:var(--muted); font:700 .7rem/1 system-ui,sans-serif; letter-spacing:.08em; }}
     p {{ margin:0 0 1.15rem; }}
     footer {{ padding-top:1.5rem; border-top:1px solid var(--rule); color:var(--muted); font:0.78rem/1.5 system-ui,sans-serif; }}
     footer a {{ color:inherit; }}

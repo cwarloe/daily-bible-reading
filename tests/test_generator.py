@@ -79,11 +79,11 @@ class AnnualAuditTests(unittest.TestCase):
     def test_api_options_and_multiple_passages(self):
         from unittest.mock import Mock
         session = Mock()
-        session.get.return_value.json.return_value = {'passages': ['First.', 'Second. (ESV)']}
-        self.assertEqual('First.\n\nSecond. (ESV)',
+        session.get.return_value.json.return_value = {'passages': ['First.', 'Second.']}
+        self.assertEqual('First.\n\nSecond.',
                          generate_page.fetch_passage(session, 'test-only', 'Jeremiah 36; Jeremiah 45'))
         options = session.get.call_args.kwargs['params']
-        for key in ['include-verse-numbers', 'include-first-verse-numbers', 'include-footnotes', 'include-footnote-body']:
+        for key in ['include-verse-numbers', 'include-first-verse-numbers', 'include-footnotes', 'include-footnote-body', 'include-short-copyright', 'include-copyright']:
             self.assertEqual('false', options[key])
         session.get.return_value.json.return_value = {'passages': []}
         with self.assertRaises(RuntimeError):
