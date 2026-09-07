@@ -1,0 +1,78 @@
+name: Update Daily Bible Reading
+
+on:
+  schedule:
+    # 09:17 UTC is overnight in Boise year-round (2:17 MST / 3:17 MDT).
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Optional test date (YYYY-MM-DD); blank uses today in Boise"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-bible-reading
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate schedule and generator
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate today's page
+        env:
+          ESV_API_KEY: ${{ secrets.ESV_API_KEY }}
+          TARGET_DATE: ${{ inputs.date }}
+        run: python generate_page.py
+
+      - name: Prepare Pages artifact
+        run: |
+          mkdir -p _site
+          cp index.html .nojekyll _site/
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Commit updated page
+        run: |
+          if git diff --quiet -- index.html; then
+            echo "index.html is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Update Bible reading for $(date -u +'%Y-%m-%d')"
+          git push
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

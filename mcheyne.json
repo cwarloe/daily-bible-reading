@@ -1,0 +1,3652 @@
+{
+  "01-01": {
+    "family": [
+      "Genesis 1",
+      "Matthew 1"
+    ],
+    "private": [
+      "Ezra 1",
+      "Acts 1"
+    ]
+  },
+  "01-02": {
+    "family": [
+      "Genesis 2",
+      "Matthew 2"
+    ],
+    "private": [
+      "Ezra 2",
+      "Acts 2"
+    ]
+  },
+  "01-03": {
+    "family": [
+      "Genesis 3",
+      "Matthew 3"
+    ],
+    "private": [
+      "Ezra 3",
+      "Acts 3"
+    ]
+  },
+  "01-04": {
+    "family": [
+      "Genesis 4",
+      "Matthew 4"
+    ],
+    "private": [
+      "Ezra 4",
+      "Acts 4"
+    ]
+  },
+  "01-05": {
+    "family": [
+      "Genesis 5",
+      "Matthew 5"
+    ],
+    "private": [
+      "Ezra 5",
+      "Acts 5"
+    ]
+  },
+  "01-06": {
+    "family": [
+      "Genesis 6",
+      "Matthew 6"
+    ],
+    "private": [
+      "Ezra 6",
+      "Acts 6"
+    ]
+  },
+  "01-07": {
+    "family": [
+      "Genesis 7",
+      "Matthew 7"
+    ],
+    "private": [
+      "Ezra 7",
+      "Acts 7"
+    ]
+  },
+  "01-08": {
+    "family": [
+      "Genesis 8",
+      "Matthew 8"
+    ],
+    "private": [
+      "Ezra 8",
+      "Acts 8"
+    ]
+  },
+  "01-09": {
+    "family": [
+      "Genesis 9-10",
+      "Matthew 9"
+    ],
+    "private": [
+      "Ezra 9",
+      "Acts 9"
+    ]
+  },
+  "01-10": {
+    "family": [
+      "Genesis 11",
+      "Matthew 10"
+    ],
+    "private": [
+      "Ezra 10",
+      "Acts 10"
+    ]
+  },
+  "01-11": {
+    "family": [
+      "Genesis 12",
+      "Matthew 11"
+    ],
+    "private": [
+      "Nehemiah 1",
+      "Acts 11"
+    ]
+  },
+  "01-12": {
+    "family": [
+      "Genesis 13",
+      "Matthew 12"
+    ],
+    "private": [
+      "Nehemiah 2",
+      "Acts 12"
+    ]
+  },
+  "01-13": {
+    "family": [
+      "Genesis 14",
+      "Matthew 13"
+    ],
+    "private": [
+      "Nehemiah 3",
+      "Acts 13"
+    ]
+  },
+  "01-14": {
+    "family": [
+      "Genesis 15",
+      "Matthew 14"
+    ],
+    "private": [
+      "Nehemiah 4",
+      "Acts 14"
+    ]
+  },
+  "01-15": {
+    "family": [
+      "Genesis 16",
+      "Matthew 15"
+    ],
+    "private": [
+      "Nehemiah 5",
+      "Acts 15"
+    ]
+  },
+  "01-16": {
+    "family": [
+      "Genesis 17",
+      "Matthew 16"
+    ],
+    "private": [
+      "Nehemiah 6",
+      "Acts 16"
+    ]
+  },
+  "01-17": {
+    "family": [
+      "Genesis 18",
+      "Matthew 17"
+    ],
+    "private": [
+      "Nehemiah 7",
+      "Acts 17"
+    ]
+  },
+  "01-18": {
+    "family": [
+      "Genesis 19",
+      "Matthew 18"
+    ],
+    "private": [
+      "Nehemiah 8",
+      "Acts 18"
+    ]
+  },
+  "01-19": {
+    "family": [
+      "Genesis 20",
+      "Matthew 19"
+    ],
+    "private": [
+      "Nehemiah 9",
+      "Acts 19"
+    ]
+  },
+  "01-20": {
+    "family": [
+      "Genesis 21",
+      "Matthew 20"
+    ],
+    "private": [
+      "Nehemiah 10",
+      "Acts 20"
+    ]
+  },
+  "01-21": {
+    "family": [
+      "Genesis 22",
+      "Matthew 21"
+    ],
+    "private": [
+      "Nehemiah 11",
+      "Acts 21"
+    ]
+  },
+  "01-22": {
+    "family": [
+      "Genesis 23",
+      "Matthew 22"
+    ],
+    "private": [
+      "Nehemiah 12",
+      "Acts 22"
+    ]
+  },
+  "01-23": {
+    "family": [
+      "Genesis 24",
+      "Matthew 23"
+    ],
+    "private": [
+      "Nehemiah 13",
+      "Acts 23"
+    ]
+  },
+  "01-24": {
+    "family": [
+      "Genesis 25",
+      "Matthew 24"
+    ],
+    "private": [
+      "Esther 1",
+      "Acts 24"
+    ]
+  },
+  "01-25": {
+    "family": [
+      "Genesis 26",
+      "Matthew 25"
+    ],
+    "private": [
+      "Esther 2",
+      "Acts 25"
+    ]
+  },
+  "01-26": {
+    "family": [
+      "Genesis 27",
+      "Matthew 26"
+    ],
+    "private": [
+      "Esther 3",
+      "Acts 26"
+    ]
+  },
+  "01-27": {
+    "family": [
+      "Genesis 28",
+      "Matthew 27"
+    ],
+    "private": [
+      "Esther 4",
+      "Acts 27"
+    ]
+  },
+  "01-28": {
+    "family": [
+      "Genesis 29",
+      "Matthew 28"
+    ],
+    "private": [
+      "Esther 5",
+      "Acts 28"
+    ]
+  },
+  "01-29": {
+    "family": [
+      "Genesis 30",
+      "Mark 1"
+    ],
+    "private": [
+      "Esther 6",
+      "Romans 1"
+    ]
+  },
+  "01-30": {
+    "family": [
+      "Genesis 31",
+      "Mark 2"
+    ],
+    "private": [
+      "Esther 7",
+      "Romans 2"
+    ]
+  },
+  "01-31": {
+    "family": [
+      "Genesis 32",
+      "Mark 3"
+    ],
+    "private": [
+      "Esther 8",
+      "Romans 3"
+    ]
+  },
+  "02-01": {
+    "family": [
+      "Genesis 33",
+      "Mark 4"
+    ],
+    "private": [
+      "Esther 9-10",
+      "Romans 4"
+    ]
+  },
+  "02-02": {
+    "family": [
+      "Genesis 34",
+      "Mark 5"
+    ],
+    "private": [
+      "Job 1",
+      "Romans 5"
+    ]
+  },
+  "02-03": {
+    "family": [
+      "Genesis 35-36",
+      "Mark 6"
+    ],
+    "private": [
+      "Job 2",
+      "Romans 6"
+    ]
+  },
+  "02-04": {
+    "family": [
+      "Genesis 37",
+      "Mark 7"
+    ],
+    "private": [
+      "Job 3",
+      "Romans 7"
+    ]
+  },
+  "02-05": {
+    "family": [
+      "Genesis 38",
+      "Mark 8"
+    ],
+    "private": [
+      "Job 4",
+      "Romans 8"
+    ]
+  },
+  "02-06": {
+    "family": [
+      "Genesis 39",
+      "Mark 9"
+    ],
+    "private": [
+      "Job 5",
+      "Romans 9"
+    ]
+  },
+  "02-07": {
+    "family": [
+      "Genesis 40",
+      "Mark 10"
+    ],
+    "private": [
+      "Job 6",
+      "Romans 10"
+    ]
+  },
+  "02-08": {
+    "family": [
+      "Genesis 41",
+      "Mark 11"
+    ],
+    "private": [
+      "Job 7",
+      "Romans 11"
+    ]
+  },
+  "02-09": {
+    "family": [
+      "Genesis 42",
+      "Mark 12"
+    ],
+    "private": [
+      "Job 8",
+      "Romans 12"
+    ]
+  },
+  "02-10": {
+    "family": [
+      "Genesis 43",
+      "Mark 13"
+    ],
+    "private": [
+      "Job 9",
+      "Romans 13"
+    ]
+  },
+  "02-11": {
+    "family": [
+      "Genesis 44",
+      "Mark 14"
+    ],
+    "private": [
+      "Job 10",
+      "Romans 14"
+    ]
+  },
+  "02-12": {
+    "family": [
+      "Genesis 45",
+      "Mark 15"
+    ],
+    "private": [
+      "Job 11",
+      "Romans 15"
+    ]
+  },
+  "02-13": {
+    "family": [
+      "Genesis 46",
+      "Mark 16"
+    ],
+    "private": [
+      "Job 12",
+      "Romans 16"
+    ]
+  },
+  "02-14": {
+    "family": [
+      "Genesis 47",
+      "Luke 1:1-38"
+    ],
+    "private": [
+      "Job 13",
+      "1 Corinthians 1"
+    ]
+  },
+  "02-15": {
+    "family": [
+      "Genesis 48",
+      "Luke 1:39-80"
+    ],
+    "private": [
+      "Job 14",
+      "1 Corinthians 2"
+    ]
+  },
+  "02-16": {
+    "family": [
+      "Genesis 49",
+      "Luke 2"
+    ],
+    "private": [
+      "Job 15",
+      "1 Corinthians 3"
+    ]
+  },
+  "02-17": {
+    "family": [
+      "Genesis 50",
+      "Luke 3"
+    ],
+    "private": [
+      "Job 16-17",
+      "1 Corinthians 4"
+    ]
+  },
+  "02-18": {
+    "family": [
+      "Exodus 1",
+      "Luke 4"
+    ],
+    "private": [
+      "Job 18",
+      "1 Corinthians 5"
+    ]
+  },
+  "02-19": {
+    "family": [
+      "Exodus 2",
+      "Luke 5"
+    ],
+    "private": [
+      "Job 19",
+      "1 Corinthians 6"
+    ]
+  },
+  "02-20": {
+    "family": [
+      "Exodus 3",
+      "Luke 6"
+    ],
+    "private": [
+      "Job 20",
+      "1 Corinthians 7"
+    ]
+  },
+  "02-21": {
+    "family": [
+      "Exodus 4",
+      "Luke 7"
+    ],
+    "private": [
+      "Job 21",
+      "1 Corinthians 8"
+    ]
+  },
+  "02-22": {
+    "family": [
+      "Exodus 5",
+      "Luke 8"
+    ],
+    "private": [
+      "Job 22",
+      "1 Corinthians 9"
+    ]
+  },
+  "02-23": {
+    "family": [
+      "Exodus 6",
+      "Luke 9"
+    ],
+    "private": [
+      "Job 23",
+      "1 Corinthians 10"
+    ]
+  },
+  "02-24": {
+    "family": [
+      "Exodus 7",
+      "Luke 10"
+    ],
+    "private": [
+      "Job 24",
+      "1 Corinthians 11"
+    ]
+  },
+  "02-25": {
+    "family": [
+      "Exodus 8",
+      "Luke 11"
+    ],
+    "private": [
+      "Job 25-26",
+      "1 Corinthians 12"
+    ]
+  },
+  "02-26": {
+    "family": [
+      "Exodus 9",
+      "Luke 12"
+    ],
+    "private": [
+      "Job 27",
+      "1 Corinthians 13"
+    ]
+  },
+  "02-27": {
+    "family": [
+      "Exodus 10",
+      "Luke 13"
+    ],
+    "private": [
+      "Job 28",
+      "1 Corinthians 14"
+    ]
+  },
+  "02-28": {
+    "family": [
+      "Exodus 11-12:21",
+      "Luke 14"
+    ],
+    "private": [
+      "Job 29",
+      "1 Corinthians 15"
+    ]
+  },
+  "03-01": {
+    "family": [
+      "Exodus 12:22-51",
+      "Luke 15"
+    ],
+    "private": [
+      "Job 30",
+      "1 Corinthians 16"
+    ]
+  },
+  "03-02": {
+    "family": [
+      "Exodus 13",
+      "Luke 16"
+    ],
+    "private": [
+      "Job 31",
+      "2 Corinthians 1"
+    ]
+  },
+  "03-03": {
+    "family": [
+      "Exodus 14",
+      "Luke 17"
+    ],
+    "private": [
+      "Job 32",
+      "2 Corinthians 2"
+    ]
+  },
+  "03-04": {
+    "family": [
+      "Exodus 15",
+      "Luke 18"
+    ],
+    "private": [
+      "Job 33",
+      "2 Corinthians 3"
+    ]
+  },
+  "03-05": {
+    "family": [
+      "Exodus 16",
+      "Luke 19"
+    ],
+    "private": [
+      "Job 34",
+      "2 Corinthians 4"
+    ]
+  },
+  "03-06": {
+    "family": [
+      "Exodus 17",
+      "Luke 20"
+    ],
+    "private": [
+      "Job 35",
+      "2 Corinthians 5"
+    ]
+  },
+  "03-07": {
+    "family": [
+      "Exodus 18",
+      "Luke 21"
+    ],
+    "private": [
+      "Job 36",
+      "2 Corinthians 6"
+    ]
+  },
+  "03-08": {
+    "family": [
+      "Exodus 19",
+      "Luke 22"
+    ],
+    "private": [
+      "Job 37",
+      "2 Corinthians 7"
+    ]
+  },
+  "03-09": {
+    "family": [
+      "Exodus 20",
+      "Luke 23"
+    ],
+    "private": [
+      "Job 38",
+      "2 Corinthians 8"
+    ]
+  },
+  "03-10": {
+    "family": [
+      "Exodus 21",
+      "Luke 24"
+    ],
+    "private": [
+      "Job 39",
+      "2 Corinthians 9"
+    ]
+  },
+  "03-11": {
+    "family": [
+      "Exodus 22",
+      "John 1"
+    ],
+    "private": [
+      "Job 40",
+      "2 Corinthians 10"
+    ]
+  },
+  "03-12": {
+    "family": [
+      "Exodus 23",
+      "John 2"
+    ],
+    "private": [
+      "Job 41",
+      "2 Corinthians 11"
+    ]
+  },
+  "03-13": {
+    "family": [
+      "Exodus 24",
+      "John 3"
+    ],
+    "private": [
+      "Job 42",
+      "2 Corinthians 12"
+    ]
+  },
+  "03-14": {
+    "family": [
+      "Exodus 25",
+      "John 4"
+    ],
+    "private": [
+      "Proverbs 1",
+      "2 Corinthians 13"
+    ]
+  },
+  "03-15": {
+    "family": [
+      "Exodus 26",
+      "John 5"
+    ],
+    "private": [
+      "Proverbs 2",
+      "Galatians 1"
+    ]
+  },
+  "03-16": {
+    "family": [
+      "Exodus 27",
+      "John 6"
+    ],
+    "private": [
+      "Proverbs 3",
+      "Galatians 2"
+    ]
+  },
+  "03-17": {
+    "family": [
+      "Exodus 28",
+      "John 7"
+    ],
+    "private": [
+      "Proverbs 4",
+      "Galatians 3"
+    ]
+  },
+  "03-18": {
+    "family": [
+      "Exodus 29",
+      "John 8"
+    ],
+    "private": [
+      "Proverbs 5",
+      "Galatians 4"
+    ]
+  },
+  "03-19": {
+    "family": [
+      "Exodus 30",
+      "John 9"
+    ],
+    "private": [
+      "Proverbs 6",
+      "Galatians 5"
+    ]
+  },
+  "03-20": {
+    "family": [
+      "Exodus 31",
+      "John 10"
+    ],
+    "private": [
+      "Proverbs 7",
+      "Galatians 6"
+    ]
+  },
+  "03-21": {
+    "family": [
+      "Exodus 32",
+      "John 11"
+    ],
+    "private": [
+      "Proverbs 8",
+      "Ephesians 1"
+    ]
+  },
+  "03-22": {
+    "family": [
+      "Exodus 33",
+      "John 12"
+    ],
+    "private": [
+      "Proverbs 9",
+      "Ephesians 2"
+    ]
+  },
+  "03-23": {
+    "family": [
+      "Exodus 34",
+      "John 13"
+    ],
+    "private": [
+      "Proverbs 10",
+      "Ephesians 3"
+    ]
+  },
+  "03-24": {
+    "family": [
+      "Exodus 35",
+      "John 14"
+    ],
+    "private": [
+      "Proverbs 11",
+      "Ephesians 4"
+    ]
+  },
+  "03-25": {
+    "family": [
+      "Exodus 36",
+      "John 15"
+    ],
+    "private": [
+      "Proverbs 12",
+      "Ephesians 5"
+    ]
+  },
+  "03-26": {
+    "family": [
+      "Exodus 37",
+      "John 16"
+    ],
+    "private": [
+      "Proverbs 13",
+      "Ephesians 6"
+    ]
+  },
+  "03-27": {
+    "family": [
+      "Exodus 38",
+      "John 17"
+    ],
+    "private": [
+      "Proverbs 14",
+      "Philippians 1"
+    ]
+  },
+  "03-28": {
+    "family": [
+      "Exodus 39",
+      "John 18"
+    ],
+    "private": [
+      "Proverbs 15",
+      "Philippians 2"
+    ]
+  },
+  "03-29": {
+    "family": [
+      "Exodus 40",
+      "John 19"
+    ],
+    "private": [
+      "Proverbs 16",
+      "Philippians 3"
+    ]
+  },
+  "03-30": {
+    "family": [
+      "Leviticus 1",
+      "John 20"
+    ],
+    "private": [
+      "Proverbs 17",
+      "Philippians 4"
+    ]
+  },
+  "03-31": {
+    "family": [
+      "Leviticus 2-3",
+      "John 21"
+    ],
+    "private": [
+      "Proverbs 18",
+      "Colossians 1"
+    ]
+  },
+  "04-01": {
+    "family": [
+      "Leviticus 4",
+      "Psalms 1-2"
+    ],
+    "private": [
+      "Proverbs 19",
+      "Colossians 2"
+    ]
+  },
+  "04-02": {
+    "family": [
+      "Leviticus 5",
+      "Psalms 3-4"
+    ],
+    "private": [
+      "Proverbs 20",
+      "Colossians 3"
+    ]
+  },
+  "04-03": {
+    "family": [
+      "Leviticus 6",
+      "Psalms 5-6"
+    ],
+    "private": [
+      "Proverbs 21",
+      "Colossians 4"
+    ]
+  },
+  "04-04": {
+    "family": [
+      "Leviticus 7",
+      "Psalms 7-8"
+    ],
+    "private": [
+      "Proverbs 22",
+      "1 Thessalonians 1"
+    ]
+  },
+  "04-05": {
+    "family": [
+      "Leviticus 8",
+      "Psalms 9"
+    ],
+    "private": [
+      "Proverbs 23",
+      "1 Thessalonians 2"
+    ]
+  },
+  "04-06": {
+    "family": [
+      "Leviticus 9",
+      "Psalms 10"
+    ],
+    "private": [
+      "Proverbs 24",
+      "1 Thessalonians 3"
+    ]
+  },
+  "04-07": {
+    "family": [
+      "Leviticus 10",
+      "Psalms 11-12"
+    ],
+    "private": [
+      "Proverbs 25",
+      "1 Thessalonians 4"
+    ]
+  },
+  "04-08": {
+    "family": [
+      "Leviticus 11-12",
+      "Psalms 13-14"
+    ],
+    "private": [
+      "Proverbs 26",
+      "1 Thessalonians 5"
+    ]
+  },
+  "04-09": {
+    "family": [
+      "Leviticus 13",
+      "Psalms 15-16"
+    ],
+    "private": [
+      "Proverbs 27",
+      "2 Thessalonians 1"
+    ]
+  },
+  "04-10": {
+    "family": [
+      "Leviticus 14",
+      "Psalms 17"
+    ],
+    "private": [
+      "Proverbs 28",
+      "2 Thessalonians 2"
+    ]
+  },
+  "04-11": {
+    "family": [
+      "Leviticus 15",
+      "Psalms 18"
+    ],
+    "private": [
+      "Proverbs 29",
+      "2 Thessalonians 3"
+    ]
+  },
+  "04-12": {
+    "family": [
+      "Leviticus 16",
+      "Psalms 19"
+    ],
+    "private": [
+      "Proverbs 30",
+      "1 Timothy 1"
+    ]
+  },
+  "04-13": {
+    "family": [
+      "Leviticus 17",
+      "Psalms 20-21"
+    ],
+    "private": [
+      "Proverbs 31",
+      "1 Timothy 2"
+    ]
+  },
+  "04-14": {
+    "family": [
+      "Leviticus 18",
+      "Psalms 22"
+    ],
+    "private": [
+      "Ecclesiastes 1",
+      "1 Timothy 3"
+    ]
+  },
+  "04-15": {
+    "family": [
+      "Leviticus 19",
+      "Psalms 23-24"
+    ],
+    "private": [
+      "Ecclesiastes 2",
+      "1 Timothy 4"
+    ]
+  },
+  "04-16": {
+    "family": [
+      "Leviticus 20",
+      "Psalms 25"
+    ],
+    "private": [
+      "Ecclesiastes 3",
+      "1 Timothy 5"
+    ]
+  },
+  "04-17": {
+    "family": [
+      "Leviticus 21",
+      "Psalms 26-27"
+    ],
+    "private": [
+      "Ecclesiastes 4",
+      "1 Timothy 6"
+    ]
+  },
+  "04-18": {
+    "family": [
+      "Leviticus 22",
+      "Psalms 28-29"
+    ],
+    "private": [
+      "Ecclesiastes 5",
+      "2 Timothy 1"
+    ]
+  },
+  "04-19": {
+    "family": [
+      "Leviticus 23",
+      "Psalms 30"
+    ],
+    "private": [
+      "Ecclesiastes 6",
+      "2 Timothy 2"
+    ]
+  },
+  "04-20": {
+    "family": [
+      "Leviticus 24",
+      "Psalms 31"
+    ],
+    "private": [
+      "Ecclesiastes 7",
+      "2 Timothy 3"
+    ]
+  },
+  "04-21": {
+    "family": [
+      "Leviticus 25",
+      "Psalms 32"
+    ],
+    "private": [
+      "Ecclesiastes 8",
+      "2 Timothy 4"
+    ]
+  },
+  "04-22": {
+    "family": [
+      "Leviticus 26",
+      "Psalms 33"
+    ],
+    "private": [
+      "Ecclesiastes 9",
+      "Titus 1"
+    ]
+  },
+  "04-23": {
+    "family": [
+      "Leviticus 27",
+      "Psalms 34"
+    ],
+    "private": [
+      "Ecclesiastes 10",
+      "Titus 2"
+    ]
+  },
+  "04-24": {
+    "family": [
+      "Numbers 1",
+      "Psalms 35"
+    ],
+    "private": [
+      "Ecclesiastes 11",
+      "Titus 3"
+    ]
+  },
+  "04-25": {
+    "family": [
+      "Numbers 2",
+      "Psalms 36"
+    ],
+    "private": [
+      "Ecclesiastes 12",
+      "Philemon 1"
+    ]
+  },
+  "04-26": {
+    "family": [
+      "Numbers 3",
+      "Psalms 37"
+    ],
+    "private": [
+      "Song of Songs 1",
+      "Hebrews 1"
+    ]
+  },
+  "04-27": {
+    "family": [
+      "Numbers 4",
+      "Psalms 38"
+    ],
+    "private": [
+      "Song of Songs 2",
+      "Hebrews 2"
+    ]
+  },
+  "04-28": {
+    "family": [
+      "Numbers 5",
+      "Psalms 39"
+    ],
+    "private": [
+      "Song of Songs 3",
+      "Hebrews 3"
+    ]
+  },
+  "04-29": {
+    "family": [
+      "Numbers 6",
+      "Psalms 40-41"
+    ],
+    "private": [
+      "Song of Songs 4",
+      "Hebrews 4"
+    ]
+  },
+  "04-30": {
+    "family": [
+      "Numbers 7",
+      "Psalms 42-43"
+    ],
+    "private": [
+      "Song of Songs 5",
+      "Hebrews 5"
+    ]
+  },
+  "05-01": {
+    "family": [
+      "Numbers 8",
+      "Psalms 44"
+    ],
+    "private": [
+      "Song of Songs 6",
+      "Hebrews 6"
+    ]
+  },
+  "05-02": {
+    "family": [
+      "Numbers 9",
+      "Psalms 45"
+    ],
+    "private": [
+      "Song of Songs 7",
+      "Hebrews 7"
+    ]
+  },
+  "05-03": {
+    "family": [
+      "Numbers 10",
+      "Psalms 46-47"
+    ],
+    "private": [
+      "Song of Songs 8",
+      "Hebrews 8"
+    ]
+  },
+  "05-04": {
+    "family": [
+      "Numbers 11",
+      "Psalms 48"
+    ],
+    "private": [
+      "Isaiah 1",
+      "Hebrews 9"
+    ]
+  },
+  "05-05": {
+    "family": [
+      "Numbers 12-13",
+      "Psalms 49"
+    ],
+    "private": [
+      "Isaiah 2",
+      "Hebrews 10"
+    ]
+  },
+  "05-06": {
+    "family": [
+      "Numbers 14",
+      "Psalms 50"
+    ],
+    "private": [
+      "Isaiah 3-4",
+      "Hebrews 11"
+    ]
+  },
+  "05-07": {
+    "family": [
+      "Numbers 15",
+      "Psalms 51"
+    ],
+    "private": [
+      "Isaiah 5",
+      "Hebrews 12"
+    ]
+  },
+  "05-08": {
+    "family": [
+      "Numbers 16",
+      "Psalms 52-54"
+    ],
+    "private": [
+      "Isaiah 6",
+      "Hebrews 13"
+    ]
+  },
+  "05-09": {
+    "family": [
+      "Numbers 17-18",
+      "Psalms 55"
+    ],
+    "private": [
+      "Isaiah 7",
+      "James 1"
+    ]
+  },
+  "05-10": {
+    "family": [
+      "Numbers 19",
+      "Psalms 56-57"
+    ],
+    "private": [
+      "Isaiah 8-9:7",
+      "James 2"
+    ]
+  },
+  "05-11": {
+    "family": [
+      "Numbers 20",
+      "Psalms 58-59"
+    ],
+    "private": [
+      "Isaiah 9:8-10:4",
+      "James 3"
+    ]
+  },
+  "05-12": {
+    "family": [
+      "Numbers 21",
+      "Psalms 60-61"
+    ],
+    "private": [
+      "Isaiah 10:5-34",
+      "James 4"
+    ]
+  },
+  "05-13": {
+    "family": [
+      "Numbers 22",
+      "Psalms 62-63"
+    ],
+    "private": [
+      "Isaiah 11-12",
+      "James 5"
+    ]
+  },
+  "05-14": {
+    "family": [
+      "Numbers 23",
+      "Psalms 64-65"
+    ],
+    "private": [
+      "Isaiah 13",
+      "1 Peter 1"
+    ]
+  },
+  "05-15": {
+    "family": [
+      "Numbers 24",
+      "Psalms 66-67"
+    ],
+    "private": [
+      "Isaiah 14",
+      "1 Peter 2"
+    ]
+  },
+  "05-16": {
+    "family": [
+      "Numbers 25",
+      "Psalms 68"
+    ],
+    "private": [
+      "Isaiah 15",
+      "1 Peter 3"
+    ]
+  },
+  "05-17": {
+    "family": [
+      "Numbers 26",
+      "Psalms 69"
+    ],
+    "private": [
+      "Isaiah 16",
+      "1 Peter 4"
+    ]
+  },
+  "05-18": {
+    "family": [
+      "Numbers 27",
+      "Psalms 70-71"
+    ],
+    "private": [
+      "Isaiah 17-18",
+      "1 Peter 5"
+    ]
+  },
+  "05-19": {
+    "family": [
+      "Numbers 28",
+      "Psalms 72"
+    ],
+    "private": [
+      "Isaiah 19-20",
+      "2 Peter 1"
+    ]
+  },
+  "05-20": {
+    "family": [
+      "Numbers 29",
+      "Psalms 73"
+    ],
+    "private": [
+      "Isaiah 21",
+      "2 Peter 2"
+    ]
+  },
+  "05-21": {
+    "family": [
+      "Numbers 30",
+      "Psalms 74"
+    ],
+    "private": [
+      "Isaiah 22",
+      "2 Peter 3"
+    ]
+  },
+  "05-22": {
+    "family": [
+      "Numbers 31",
+      "Psalms 75-76"
+    ],
+    "private": [
+      "Isaiah 23",
+      "1 John 1"
+    ]
+  },
+  "05-23": {
+    "family": [
+      "Numbers 32",
+      "Psalms 77"
+    ],
+    "private": [
+      "Isaiah 24",
+      "1 John 2"
+    ]
+  },
+  "05-24": {
+    "family": [
+      "Numbers 33",
+      "Psalms 78:1-37"
+    ],
+    "private": [
+      "Isaiah 25",
+      "1 John 3"
+    ]
+  },
+  "05-25": {
+    "family": [
+      "Numbers 34",
+      "Psalms 78:38-72"
+    ],
+    "private": [
+      "Isaiah 26",
+      "1 John 4"
+    ]
+  },
+  "05-26": {
+    "family": [
+      "Numbers 35",
+      "Psalms 79"
+    ],
+    "private": [
+      "Isaiah 27",
+      "1 John 5"
+    ]
+  },
+  "05-27": {
+    "family": [
+      "Numbers 36",
+      "Psalms 80"
+    ],
+    "private": [
+      "Isaiah 28",
+      "2 John 1"
+    ]
+  },
+  "05-28": {
+    "family": [
+      "Deuteronomy 1",
+      "Psalms 81-82"
+    ],
+    "private": [
+      "Isaiah 29",
+      "3 John 1"
+    ]
+  },
+  "05-29": {
+    "family": [
+      "Deuteronomy 2",
+      "Psalms 83-84"
+    ],
+    "private": [
+      "Isaiah 30",
+      "Jude 1"
+    ]
+  },
+  "05-30": {
+    "family": [
+      "Deuteronomy 3",
+      "Psalms 85"
+    ],
+    "private": [
+      "Isaiah 31",
+      "Revelation 1"
+    ]
+  },
+  "05-31": {
+    "family": [
+      "Deuteronomy 4",
+      "Psalms 86-87"
+    ],
+    "private": [
+      "Isaiah 32",
+      "Revelation 2"
+    ]
+  },
+  "06-01": {
+    "family": [
+      "Deuteronomy 5",
+      "Psalms 88"
+    ],
+    "private": [
+      "Isaiah 33",
+      "Revelation 3"
+    ]
+  },
+  "06-02": {
+    "family": [
+      "Deuteronomy 6",
+      "Psalms 89"
+    ],
+    "private": [
+      "Isaiah 34",
+      "Revelation 4"
+    ]
+  },
+  "06-03": {
+    "family": [
+      "Deuteronomy 7",
+      "Psalms 90"
+    ],
+    "private": [
+      "Isaiah 35",
+      "Revelation 5"
+    ]
+  },
+  "06-04": {
+    "family": [
+      "Deuteronomy 8",
+      "Psalms 91"
+    ],
+    "private": [
+      "Isaiah 36",
+      "Revelation 6"
+    ]
+  },
+  "06-05": {
+    "family": [
+      "Deuteronomy 9",
+      "Psalms 92-93"
+    ],
+    "private": [
+      "Isaiah 37",
+      "Revelation 7"
+    ]
+  },
+  "06-06": {
+    "family": [
+      "Deuteronomy 10",
+      "Psalms 94"
+    ],
+    "private": [
+      "Isaiah 38",
+      "Revelation 8"
+    ]
+  },
+  "06-07": {
+    "family": [
+      "Deuteronomy 11",
+      "Psalms 95-96"
+    ],
+    "private": [
+      "Isaiah 39",
+      "Revelation 9"
+    ]
+  },
+  "06-08": {
+    "family": [
+      "Deuteronomy 12",
+      "Psalms 97-98"
+    ],
+    "private": [
+      "Isaiah 40",
+      "Revelation 10"
+    ]
+  },
+  "06-09": {
+    "family": [
+      "Deuteronomy 13-14",
+      "Psalms 99-101"
+    ],
+    "private": [
+      "Isaiah 41",
+      "Revelation 11"
+    ]
+  },
+  "06-10": {
+    "family": [
+      "Deuteronomy 15",
+      "Psalms 102"
+    ],
+    "private": [
+      "Isaiah 42",
+      "Revelation 12"
+    ]
+  },
+  "06-11": {
+    "family": [
+      "Deuteronomy 16",
+      "Psalms 103"
+    ],
+    "private": [
+      "Isaiah 43",
+      "Revelation 13"
+    ]
+  },
+  "06-12": {
+    "family": [
+      "Deuteronomy 17",
+      "Psalms 104"
+    ],
+    "private": [
+      "Isaiah 44",
+      "Revelation 14"
+    ]
+  },
+  "06-13": {
+    "family": [
+      "Deuteronomy 18",
+      "Psalms 105"
+    ],
+    "private": [
+      "Isaiah 45",
+      "Revelation 15"
+    ]
+  },
+  "06-14": {
+    "family": [
+      "Deuteronomy 19",
+      "Psalms 106"
+    ],
+    "private": [
+      "Isaiah 46",
+      "Revelation 16"
+    ]
+  },
+  "06-15": {
+    "family": [
+      "Deuteronomy 20",
+      "Psalms 107"
+    ],
+    "private": [
+      "Isaiah 47",
+      "Revelation 17"
+    ]
+  },
+  "06-16": {
+    "family": [
+      "Deuteronomy 21",
+      "Psalms 108-109"
+    ],
+    "private": [
+      "Isaiah 48",
+      "Revelation 18"
+    ]
+  },
+  "06-17": {
+    "family": [
+      "Deuteronomy 22",
+      "Psalms 110-111"
+    ],
+    "private": [
+      "Isaiah 49",
+      "Revelation 19"
+    ]
+  },
+  "06-18": {
+    "family": [
+      "Deuteronomy 23",
+      "Psalms 112-113"
+    ],
+    "private": [
+      "Isaiah 50",
+      "Revelation 20"
+    ]
+  },
+  "06-19": {
+    "family": [
+      "Deuteronomy 24",
+      "Psalms 114-115"
+    ],
+    "private": [
+      "Isaiah 51",
+      "Revelation 21"
+    ]
+  },
+  "06-20": {
+    "family": [
+      "Deuteronomy 25",
+      "Psalms 116"
+    ],
+    "private": [
+      "Isaiah 52",
+      "Revelation 22"
+    ]
+  },
+  "06-21": {
+    "family": [
+      "Deuteronomy 26",
+      "Psalms 117-118"
+    ],
+    "private": [
+      "Isaiah 53",
+      "Matthew 1"
+    ]
+  },
+  "06-22": {
+    "family": [
+      "Deuteronomy 27-28:19",
+      "Psalms 119:1-24"
+    ],
+    "private": [
+      "Isaiah 54",
+      "Matthew 2"
+    ]
+  },
+  "06-23": {
+    "family": [
+      "Deuteronomy 28:20-68",
+      "Psalms 119:25-48"
+    ],
+    "private": [
+      "Isaiah 55",
+      "Matthew 3"
+    ]
+  },
+  "06-24": {
+    "family": [
+      "Deuteronomy 29",
+      "Psalms 119:49-72"
+    ],
+    "private": [
+      "Isaiah 56",
+      "Matthew 4"
+    ]
+  },
+  "06-25": {
+    "family": [
+      "Deuteronomy 30",
+      "Psalms 119:73-96"
+    ],
+    "private": [
+      "Isaiah 57",
+      "Matthew 5"
+    ]
+  },
+  "06-26": {
+    "family": [
+      "Deuteronomy 31",
+      "Psalms 119:97-120"
+    ],
+    "private": [
+      "Isaiah 58",
+      "Matthew 6"
+    ]
+  },
+  "06-27": {
+    "family": [
+      "Deuteronomy 32",
+      "Psalms 119:121-144"
+    ],
+    "private": [
+      "Isaiah 59",
+      "Matthew 7"
+    ]
+  },
+  "06-28": {
+    "family": [
+      "Deuteronomy 33-34",
+      "Psalms 119:145-176"
+    ],
+    "private": [
+      "Isaiah 60",
+      "Matthew 8"
+    ]
+  },
+  "06-29": {
+    "family": [
+      "Joshua 1",
+      "Psalms 120-122"
+    ],
+    "private": [
+      "Isaiah 61",
+      "Matthew 9"
+    ]
+  },
+  "06-30": {
+    "family": [
+      "Joshua 2",
+      "Psalms 123-125"
+    ],
+    "private": [
+      "Isaiah 62",
+      "Matthew 10"
+    ]
+  },
+  "07-01": {
+    "family": [
+      "Joshua 3",
+      "Psalms 126-128"
+    ],
+    "private": [
+      "Isaiah 63",
+      "Matthew 11"
+    ]
+  },
+  "07-02": {
+    "family": [
+      "Joshua 4",
+      "Psalms 129-131"
+    ],
+    "private": [
+      "Isaiah 64",
+      "Matthew 12"
+    ]
+  },
+  "07-03": {
+    "family": [
+      "Joshua 5-6:5",
+      "Psalms 132-134"
+    ],
+    "private": [
+      "Isaiah 65",
+      "Matthew 13"
+    ]
+  },
+  "07-04": {
+    "family": [
+      "Joshua 6:6-27",
+      "Psalms 135-136"
+    ],
+    "private": [
+      "Isaiah 66",
+      "Matthew 14"
+    ]
+  },
+  "07-05": {
+    "family": [
+      "Joshua 7",
+      "Psalms 137-138"
+    ],
+    "private": [
+      "Jeremiah 1",
+      "Matthew 15"
+    ]
+  },
+  "07-06": {
+    "family": [
+      "Joshua 8",
+      "Psalms 139"
+    ],
+    "private": [
+      "Jeremiah 2",
+      "Matthew 16"
+    ]
+  },
+  "07-07": {
+    "family": [
+      "Joshua 9",
+      "Psalms 140-141"
+    ],
+    "private": [
+      "Jeremiah 3",
+      "Matthew 17"
+    ]
+  },
+  "07-08": {
+    "family": [
+      "Joshua 10",
+      "Psalms 142-143"
+    ],
+    "private": [
+      "Jeremiah 4",
+      "Matthew 18"
+    ]
+  },
+  "07-09": {
+    "family": [
+      "Joshua 11",
+      "Psalms 144"
+    ],
+    "private": [
+      "Jeremiah 5",
+      "Matthew 19"
+    ]
+  },
+  "07-10": {
+    "family": [
+      "Joshua 12-13",
+      "Psalms 145"
+    ],
+    "private": [
+      "Jeremiah 6",
+      "Matthew 20"
+    ]
+  },
+  "07-11": {
+    "family": [
+      "Joshua 14-15",
+      "Psalms 146-147"
+    ],
+    "private": [
+      "Jeremiah 7",
+      "Matthew 21"
+    ]
+  },
+  "07-12": {
+    "family": [
+      "Joshua 16-17",
+      "Psalms 148"
+    ],
+    "private": [
+      "Jeremiah 8",
+      "Matthew 22"
+    ]
+  },
+  "07-13": {
+    "family": [
+      "Joshua 18-19",
+      "Psalms 149-150"
+    ],
+    "private": [
+      "Jeremiah 9",
+      "Matthew 23"
+    ]
+  },
+  "07-14": {
+    "family": [
+      "Joshua 20-21",
+      "Acts 1"
+    ],
+    "private": [
+      "Jeremiah 10",
+      "Matthew 24"
+    ]
+  },
+  "07-15": {
+    "family": [
+      "Joshua 22",
+      "Acts 2"
+    ],
+    "private": [
+      "Jeremiah 11",
+      "Matthew 25"
+    ]
+  },
+  "07-16": {
+    "family": [
+      "Joshua 23",
+      "Acts 3"
+    ],
+    "private": [
+      "Jeremiah 12",
+      "Matthew 26"
+    ]
+  },
+  "07-17": {
+    "family": [
+      "Joshua 24",
+      "Acts 4"
+    ],
+    "private": [
+      "Jeremiah 13",
+      "Matthew 27"
+    ]
+  },
+  "07-18": {
+    "family": [
+      "Judges 1",
+      "Acts 5"
+    ],
+    "private": [
+      "Jeremiah 14",
+      "Matthew 28"
+    ]
+  },
+  "07-19": {
+    "family": [
+      "Judges 2",
+      "Acts 6"
+    ],
+    "private": [
+      "Jeremiah 15",
+      "Mark 1"
+    ]
+  },
+  "07-20": {
+    "family": [
+      "Judges 3",
+      "Acts 7"
+    ],
+    "private": [
+      "Jeremiah 16",
+      "Mark 2"
+    ]
+  },
+  "07-21": {
+    "family": [
+      "Judges 4",
+      "Acts 8"
+    ],
+    "private": [
+      "Jeremiah 17",
+      "Mark 3"
+    ]
+  },
+  "07-22": {
+    "family": [
+      "Judges 5",
+      "Acts 9"
+    ],
+    "private": [
+      "Jeremiah 18",
+      "Mark 4"
+    ]
+  },
+  "07-23": {
+    "family": [
+      "Judges 6",
+      "Acts 10"
+    ],
+    "private": [
+      "Jeremiah 19",
+      "Mark 5"
+    ]
+  },
+  "07-24": {
+    "family": [
+      "Judges 7",
+      "Acts 11"
+    ],
+    "private": [
+      "Jeremiah 20",
+      "Mark 6"
+    ]
+  },
+  "07-25": {
+    "family": [
+      "Judges 8",
+      "Acts 12"
+    ],
+    "private": [
+      "Jeremiah 21",
+      "Mark 7"
+    ]
+  },
+  "07-26": {
+    "family": [
+      "Judges 9",
+      "Acts 13"
+    ],
+    "private": [
+      "Jeremiah 22",
+      "Mark 8"
+    ]
+  },
+  "07-27": {
+    "family": [
+      "Judges 10-11:11",
+      "Acts 14"
+    ],
+    "private": [
+      "Jeremiah 23",
+      "Mark 9"
+    ]
+  },
+  "07-28": {
+    "family": [
+      "Judges 11:12-40",
+      "Acts 15"
+    ],
+    "private": [
+      "Jeremiah 24",
+      "Mark 10"
+    ]
+  },
+  "07-29": {
+    "family": [
+      "Judges 12",
+      "Acts 16"
+    ],
+    "private": [
+      "Jeremiah 25",
+      "Mark 11"
+    ]
+  },
+  "07-30": {
+    "family": [
+      "Judges 13",
+      "Acts 17"
+    ],
+    "private": [
+      "Jeremiah 26",
+      "Mark 12"
+    ]
+  },
+  "07-31": {
+    "family": [
+      "Judges 14",
+      "Acts 18"
+    ],
+    "private": [
+      "Jeremiah 27",
+      "Mark 13"
+    ]
+  },
+  "08-01": {
+    "family": [
+      "Judges 15",
+      "Acts 19"
+    ],
+    "private": [
+      "Jeremiah 28",
+      "Mark 14"
+    ]
+  },
+  "08-02": {
+    "family": [
+      "Judges 16",
+      "Acts 20"
+    ],
+    "private": [
+      "Jeremiah 29",
+      "Mark 15"
+    ]
+  },
+  "08-03": {
+    "family": [
+      "Judges 17",
+      "Acts 21"
+    ],
+    "private": [
+      "Jeremiah 30-31",
+      "Mark 16"
+    ]
+  },
+  "08-04": {
+    "family": [
+      "Judges 18",
+      "Acts 22"
+    ],
+    "private": [
+      "Jeremiah 32",
+      "Psalms 1-2"
+    ]
+  },
+  "08-05": {
+    "family": [
+      "Judges 19",
+      "Acts 23"
+    ],
+    "private": [
+      "Jeremiah 33",
+      "Psalms 3-4"
+    ]
+  },
+  "08-06": {
+    "family": [
+      "Judges 20",
+      "Acts 24"
+    ],
+    "private": [
+      "Jeremiah 34",
+      "Psalms 5-6"
+    ]
+  },
+  "08-07": {
+    "family": [
+      "Judges 21",
+      "Acts 25"
+    ],
+    "private": [
+      "Jeremiah 35",
+      "Psalms 7-8"
+    ]
+  },
+  "08-08": {
+    "family": [
+      "Ruth 1",
+      "Acts 26"
+    ],
+    "private": [
+      "Jeremiah 36 & 45",
+      "Psalms 9"
+    ]
+  },
+  "08-09": {
+    "family": [
+      "Ruth 2",
+      "Acts 27"
+    ],
+    "private": [
+      "Jeremiah 37",
+      "Psalms 10"
+    ]
+  },
+  "08-10": {
+    "family": [
+      "Ruth 3-4",
+      "Acts 28"
+    ],
+    "private": [
+      "Jeremiah 38",
+      "Psalms 11-12"
+    ]
+  },
+  "08-11": {
+    "family": [
+      "1 Samuel 1",
+      "Romans 1"
+    ],
+    "private": [
+      "Jeremiah 39",
+      "Psalms 13-14"
+    ]
+  },
+  "08-12": {
+    "family": [
+      "1 Samuel 2",
+      "Romans 2"
+    ],
+    "private": [
+      "Jeremiah 40",
+      "Psalms 15-16"
+    ]
+  },
+  "08-13": {
+    "family": [
+      "1 Samuel 3",
+      "Romans 3"
+    ],
+    "private": [
+      "Jeremiah 41",
+      "Psalms 17"
+    ]
+  },
+  "08-14": {
+    "family": [
+      "1 Samuel 4",
+      "Romans 4"
+    ],
+    "private": [
+      "Jeremiah 42",
+      "Psalms 18"
+    ]
+  },
+  "08-15": {
+    "family": [
+      "1 Samuel 5-6",
+      "Romans 5"
+    ],
+    "private": [
+      "Jeremiah 43",
+      "Psalms 19"
+    ]
+  },
+  "08-16": {
+    "family": [
+      "1 Samuel 7-8",
+      "Romans 6"
+    ],
+    "private": [
+      "Jeremiah 44",
+      "Psalms 20-21"
+    ]
+  },
+  "08-17": {
+    "family": [
+      "1 Samuel 9",
+      "Romans 7"
+    ],
+    "private": [
+      "Jeremiah 46",
+      "Psalms 22"
+    ]
+  },
+  "08-18": {
+    "family": [
+      "1 Samuel 10",
+      "Romans 8"
+    ],
+    "private": [
+      "Jeremiah 47",
+      "Psalms 23-24"
+    ]
+  },
+  "08-19": {
+    "family": [
+      "1 Samuel 11",
+      "Romans 9"
+    ],
+    "private": [
+      "Jeremiah 48",
+      "Psalms 25"
+    ]
+  },
+  "08-20": {
+    "family": [
+      "1 Samuel 12",
+      "Romans 10"
+    ],
+    "private": [
+      "Jeremiah 49",
+      "Psalms 26-27"
+    ]
+  },
+  "08-21": {
+    "family": [
+      "1 Samuel 13",
+      "Romans 11"
+    ],
+    "private": [
+      "Jeremiah 50",
+      "Psalms 28-29"
+    ]
+  },
+  "08-22": {
+    "family": [
+      "1 Samuel 14",
+      "Romans 12"
+    ],
+    "private": [
+      "Jeremiah 51",
+      "Psalms 30"
+    ]
+  },
+  "08-23": {
+    "family": [
+      "1 Samuel 15",
+      "Romans 13"
+    ],
+    "private": [
+      "Jeremiah 52",
+      "Psalms 31"
+    ]
+  },
+  "08-24": {
+    "family": [
+      "1 Samuel 16",
+      "Romans 14"
+    ],
+    "private": [
+      "Lamentations 1",
+      "Psalms 32"
+    ]
+  },
+  "08-25": {
+    "family": [
+      "1 Samuel 17",
+      "Romans 15"
+    ],
+    "private": [
+      "Lamentations 2",
+      "Psalms 33"
+    ]
+  },
+  "08-26": {
+    "family": [
+      "1 Samuel 18",
+      "Romans 16"
+    ],
+    "private": [
+      "Lamentations 3",
+      "Psalms 34"
+    ]
+  },
+  "08-27": {
+    "family": [
+      "1 Samuel 19",
+      "1 Corinthians 1"
+    ],
+    "private": [
+      "Lamentations 4",
+      "Psalms 35"
+    ]
+  },
+  "08-28": {
+    "family": [
+      "1 Samuel 20",
+      "1 Corinthians 2"
+    ],
+    "private": [
+      "Lamentations 5",
+      "Psalms 36"
+    ]
+  },
+  "08-29": {
+    "family": [
+      "1 Samuel 21-22",
+      "1 Corinthians 3"
+    ],
+    "private": [
+      "Ezekiel 1",
+      "Psalms 37"
+    ]
+  },
+  "08-30": {
+    "family": [
+      "1 Samuel 23",
+      "1 Corinthians 4"
+    ],
+    "private": [
+      "Ezekiel 2",
+      "Psalms 38"
+    ]
+  },
+  "08-31": {
+    "family": [
+      "1 Samuel 24",
+      "1 Corinthians 5"
+    ],
+    "private": [
+      "Ezekiel 3",
+      "Psalms 39"
+    ]
+  },
+  "09-01": {
+    "family": [
+      "1 Samuel 25",
+      "1 Corinthians 6"
+    ],
+    "private": [
+      "Ezekiel 4",
+      "Psalms 40-41"
+    ]
+  },
+  "09-02": {
+    "family": [
+      "1 Samuel 26",
+      "1 Corinthians 7"
+    ],
+    "private": [
+      "Ezekiel 5",
+      "Psalms 42-43"
+    ]
+  },
+  "09-03": {
+    "family": [
+      "1 Samuel 27",
+      "1 Corinthians 8"
+    ],
+    "private": [
+      "Ezekiel 6",
+      "Psalms 44"
+    ]
+  },
+  "09-04": {
+    "family": [
+      "1 Samuel 28",
+      "1 Corinthians 9"
+    ],
+    "private": [
+      "Ezekiel 7",
+      "Psalms 45"
+    ]
+  },
+  "09-05": {
+    "family": [
+      "1 Samuel 29-30",
+      "1 Corinthians 10"
+    ],
+    "private": [
+      "Ezekiel 8",
+      "Psalms 46-47"
+    ]
+  },
+  "09-06": {
+    "family": [
+      "1 Samuel 31",
+      "1 Corinthians 11"
+    ],
+    "private": [
+      "Ezekiel 9",
+      "Psalms 48"
+    ]
+  },
+  "09-07": {
+    "family": [
+      "2 Samuel 1",
+      "1 Corinthians 12"
+    ],
+    "private": [
+      "Ezekiel 10",
+      "Psalms 49"
+    ]
+  },
+  "09-08": {
+    "family": [
+      "2 Samuel 2",
+      "1 Corinthians 13"
+    ],
+    "private": [
+      "Ezekiel 11",
+      "Psalms 50"
+    ]
+  },
+  "09-09": {
+    "family": [
+      "2 Samuel 3",
+      "1 Corinthians 14"
+    ],
+    "private": [
+      "Ezekiel 12",
+      "Psalms 51"
+    ]
+  },
+  "09-10": {
+    "family": [
+      "2 Samuel 4-5",
+      "1 Corinthians 15"
+    ],
+    "private": [
+      "Ezekiel 13",
+      "Psalms 52-54"
+    ]
+  },
+  "09-11": {
+    "family": [
+      "2 Samuel 6",
+      "1 Corinthians 16"
+    ],
+    "private": [
+      "Ezekiel 14",
+      "Psalms 55"
+    ]
+  },
+  "09-12": {
+    "family": [
+      "2 Samuel 7",
+      "2 Corinthians 1"
+    ],
+    "private": [
+      "Ezekiel 15",
+      "Psalms 56-57"
+    ]
+  },
+  "09-13": {
+    "family": [
+      "2 Samuel 8-9",
+      "2 Corinthians 2"
+    ],
+    "private": [
+      "Ezekiel 16",
+      "Psalms 58-59"
+    ]
+  },
+  "09-14": {
+    "family": [
+      "2 Samuel 10",
+      "2 Corinthians 3"
+    ],
+    "private": [
+      "Ezekiel 17",
+      "Psalms 60-61"
+    ]
+  },
+  "09-15": {
+    "family": [
+      "2 Samuel 11",
+      "2 Corinthians 4"
+    ],
+    "private": [
+      "Ezekiel 18",
+      "Psalms 62-63"
+    ]
+  },
+  "09-16": {
+    "family": [
+      "2 Samuel 12",
+      "2 Corinthians 5"
+    ],
+    "private": [
+      "Ezekiel 19",
+      "Psalms 64-65"
+    ]
+  },
+  "09-17": {
+    "family": [
+      "2 Samuel 13",
+      "2 Corinthians 6"
+    ],
+    "private": [
+      "Ezekiel 20",
+      "Psalms 66-67"
+    ]
+  },
+  "09-18": {
+    "family": [
+      "2 Samuel 14",
+      "2 Corinthians 7"
+    ],
+    "private": [
+      "Ezekiel 21",
+      "Psalms 68"
+    ]
+  },
+  "09-19": {
+    "family": [
+      "2 Samuel 15",
+      "2 Corinthians 8"
+    ],
+    "private": [
+      "Ezekiel 22",
+      "Psalms 69"
+    ]
+  },
+  "09-20": {
+    "family": [
+      "2 Samuel 16",
+      "2 Corinthians 9"
+    ],
+    "private": [
+      "Ezekiel 23",
+      "Psalms 70-71"
+    ]
+  },
+  "09-21": {
+    "family": [
+      "2 Samuel 17",
+      "2 Corinthians 10"
+    ],
+    "private": [
+      "Ezekiel 24",
+      "Psalms 72"
+    ]
+  },
+  "09-22": {
+    "family": [
+      "2 Samuel 18",
+      "2 Corinthians 11"
+    ],
+    "private": [
+      "Ezekiel 25",
+      "Psalms 73"
+    ]
+  },
+  "09-23": {
+    "family": [
+      "2 Samuel 19",
+      "2 Corinthians 12"
+    ],
+    "private": [
+      "Ezekiel 26",
+      "Psalms 74"
+    ]
+  },
+  "09-24": {
+    "family": [
+      "2 Samuel 20",
+      "2 Corinthians 13"
+    ],
+    "private": [
+      "Ezekiel 27",
+      "Psalms 75-76"
+    ]
+  },
+  "09-25": {
+    "family": [
+      "2 Samuel 21",
+      "Galatians 1"
+    ],
+    "private": [
+      "Ezekiel 28",
+      "Psalms 77"
+    ]
+  },
+  "09-26": {
+    "family": [
+      "2 Samuel 22",
+      "Galatians 2"
+    ],
+    "private": [
+      "Ezekiel 29",
+      "Psalms 78:1-37"
+    ]
+  },
+  "09-27": {
+    "family": [
+      "2 Samuel 23",
+      "Galatians 3"
+    ],
+    "private": [
+      "Ezekiel 30",
+      "Psalms 78:38-72"
+    ]
+  },
+  "09-28": {
+    "family": [
+      "2 Samuel 24",
+      "Galatians 4"
+    ],
+    "private": [
+      "Ezekiel 31",
+      "Psalms 79"
+    ]
+  },
+  "09-29": {
+    "family": [
+      "1 Kings 1",
+      "Galatians 5"
+    ],
+    "private": [
+      "Ezekiel 32",
+      "Psalms 80"
+    ]
+  },
+  "09-30": {
+    "family": [
+      "1 Kings 2",
+      "Galatians 6"
+    ],
+    "private": [
+      "Ezekiel 33",
+      "Psalms 81-82"
+    ]
+  },
+  "10-01": {
+    "family": [
+      "1 Kings 3",
+      "Ephesians 1"
+    ],
+    "private": [
+      "Ezekiel 34",
+      "Psalms 83-84"
+    ]
+  },
+  "10-02": {
+    "family": [
+      "1 Kings 4-5",
+      "Ephesians 2"
+    ],
+    "private": [
+      "Ezekiel 35",
+      "Psalms 85"
+    ]
+  },
+  "10-03": {
+    "family": [
+      "1 Kings 6",
+      "Ephesians 3"
+    ],
+    "private": [
+      "Ezekiel 36",
+      "Psalms 86"
+    ]
+  },
+  "10-04": {
+    "family": [
+      "1 Kings 7",
+      "Ephesians 4"
+    ],
+    "private": [
+      "Ezekiel 37",
+      "Psalms 87-88"
+    ]
+  },
+  "10-05": {
+    "family": [
+      "1 Kings 8",
+      "Ephesians 5"
+    ],
+    "private": [
+      "Ezekiel 38",
+      "Psalms 89"
+    ]
+  },
+  "10-06": {
+    "family": [
+      "1 Kings 9",
+      "Ephesians 6"
+    ],
+    "private": [
+      "Ezekiel 39",
+      "Psalms 90"
+    ]
+  },
+  "10-07": {
+    "family": [
+      "1 Kings 10",
+      "Philippians 1"
+    ],
+    "private": [
+      "Ezekiel 40",
+      "Psalms 91"
+    ]
+  },
+  "10-08": {
+    "family": [
+      "1 Kings 11",
+      "Philippians 2"
+    ],
+    "private": [
+      "Ezekiel 41",
+      "Psalms 92-93"
+    ]
+  },
+  "10-09": {
+    "family": [
+      "1 Kings 12",
+      "Philippians 3"
+    ],
+    "private": [
+      "Ezekiel 42",
+      "Psalms 94"
+    ]
+  },
+  "10-10": {
+    "family": [
+      "1 Kings 13",
+      "Philippians 4"
+    ],
+    "private": [
+      "Ezekiel 43",
+      "Psalms 95-96"
+    ]
+  },
+  "10-11": {
+    "family": [
+      "1 Kings 14",
+      "Colossians 1"
+    ],
+    "private": [
+      "Ezekiel 44",
+      "Psalms 97-98"
+    ]
+  },
+  "10-12": {
+    "family": [
+      "1 Kings 15",
+      "Colossians 2"
+    ],
+    "private": [
+      "Ezekiel 45",
+      "Psalms 99-101"
+    ]
+  },
+  "10-13": {
+    "family": [
+      "1 Kings 16",
+      "Colossians 3"
+    ],
+    "private": [
+      "Ezekiel 46",
+      "Psalms 102"
+    ]
+  },
+  "10-14": {
+    "family": [
+      "1 Kings 17",
+      "Colossians 4"
+    ],
+    "private": [
+      "Ezekiel 47",
+      "Psalms 103"
+    ]
+  },
+  "10-15": {
+    "family": [
+      "1 Kings 18",
+      "1 Thessalonians 1"
+    ],
+    "private": [
+      "Ezekiel 48",
+      "Psalms 104"
+    ]
+  },
+  "10-16": {
+    "family": [
+      "1 Kings 19",
+      "1 Thessalonians 2"
+    ],
+    "private": [
+      "Daniel 1",
+      "Psalms 105"
+    ]
+  },
+  "10-17": {
+    "family": [
+      "1 Kings 20",
+      "1 Thessalonians 3"
+    ],
+    "private": [
+      "Daniel 2",
+      "Psalms 106"
+    ]
+  },
+  "10-18": {
+    "family": [
+      "1 Kings 21",
+      "1 Thessalonians 4"
+    ],
+    "private": [
+      "Daniel 3",
+      "Psalms 107"
+    ]
+  },
+  "10-19": {
+    "family": [
+      "1 Kings 22",
+      "1 Thessalonians 5"
+    ],
+    "private": [
+      "Daniel 4",
+      "Psalms 108-109"
+    ]
+  },
+  "10-20": {
+    "family": [
+      "2 Kings 1",
+      "2 Thessalonians 1"
+    ],
+    "private": [
+      "Daniel 5",
+      "Psalms 110-111"
+    ]
+  },
+  "10-21": {
+    "family": [
+      "2 Kings 2",
+      "2 Thessalonians 2"
+    ],
+    "private": [
+      "Daniel 6",
+      "Psalms 112-113"
+    ]
+  },
+  "10-22": {
+    "family": [
+      "2 Kings 3",
+      "2 Thessalonians 3"
+    ],
+    "private": [
+      "Daniel 7",
+      "Psalms 114-115"
+    ]
+  },
+  "10-23": {
+    "family": [
+      "2 Kings 4",
+      "1 Timothy 1"
+    ],
+    "private": [
+      "Daniel 8",
+      "Psalms 116"
+    ]
+  },
+  "10-24": {
+    "family": [
+      "2 Kings 5",
+      "1 Timothy 2"
+    ],
+    "private": [
+      "Daniel 9",
+      "Psalms 117-118"
+    ]
+  },
+  "10-25": {
+    "family": [
+      "2 Kings 6",
+      "1 Timothy 3"
+    ],
+    "private": [
+      "Daniel 10",
+      "Psalms 119:1-24"
+    ]
+  },
+  "10-26": {
+    "family": [
+      "2 Kings 7",
+      "1 Timothy 4"
+    ],
+    "private": [
+      "Daniel 11",
+      "Psalms 119:25-48"
+    ]
+  },
+  "10-27": {
+    "family": [
+      "2 Kings 8",
+      "1 Timothy 5"
+    ],
+    "private": [
+      "Daniel 12",
+      "Psalms 119:49-72"
+    ]
+  },
+  "10-28": {
+    "family": [
+      "2 Kings 9",
+      "1 Timothy 6"
+    ],
+    "private": [
+      "Hosea 1",
+      "Psalms 119:73-96"
+    ]
+  },
+  "10-29": {
+    "family": [
+      "2 Kings 10",
+      "2 Timothy 1"
+    ],
+    "private": [
+      "Hosea 2",
+      "Psalms 119:97-120"
+    ]
+  },
+  "10-30": {
+    "family": [
+      "2 Kings 11-12",
+      "2 Timothy 2"
+    ],
+    "private": [
+      "Hosea 3-4",
+      "Psalms 119:121-144"
+    ]
+  },
+  "10-31": {
+    "family": [
+      "2 Kings 13",
+      "2 Timothy 3"
+    ],
+    "private": [
+      "Hosea 5-6",
+      "Psalms 119:145-176"
+    ]
+  },
+  "11-01": {
+    "family": [
+      "2 Kings 14",
+      "2 Timothy 4"
+    ],
+    "private": [
+      "Hosea 7",
+      "Psalms 120-122"
+    ]
+  },
+  "11-02": {
+    "family": [
+      "2 Kings 15",
+      "Titus 1"
+    ],
+    "private": [
+      "Hosea 8",
+      "Psalms 123-125"
+    ]
+  },
+  "11-03": {
+    "family": [
+      "2 Kings 16",
+      "Titus 2"
+    ],
+    "private": [
+      "Hosea 9",
+      "Psalms 126-128"
+    ]
+  },
+  "11-04": {
+    "family": [
+      "2 Kings 17",
+      "Titus 3"
+    ],
+    "private": [
+      "Hosea 10",
+      "Psalms 129-131"
+    ]
+  },
+  "11-05": {
+    "family": [
+      "2 Kings 18",
+      "Philemon 1"
+    ],
+    "private": [
+      "Hosea 11",
+      "Psalms 132-134"
+    ]
+  },
+  "11-06": {
+    "family": [
+      "2 Kings 19",
+      "Hebrews 1"
+    ],
+    "private": [
+      "Hosea 12",
+      "Psalms 135-136"
+    ]
+  },
+  "11-07": {
+    "family": [
+      "2 Kings 20",
+      "Hebrews 2"
+    ],
+    "private": [
+      "Hosea 13",
+      "Psalms 137-138"
+    ]
+  },
+  "11-08": {
+    "family": [
+      "2 Kings 21",
+      "Hebrews 3"
+    ],
+    "private": [
+      "Hosea 14",
+      "Psalms 139"
+    ]
+  },
+  "11-09": {
+    "family": [
+      "2 Kings 22",
+      "Hebrews 4"
+    ],
+    "private": [
+      "Joel 1",
+      "Psalms 140-141"
+    ]
+  },
+  "11-10": {
+    "family": [
+      "2 Kings 23",
+      "Hebrews 5"
+    ],
+    "private": [
+      "Joel 2",
+      "Psalms 142"
+    ]
+  },
+  "11-11": {
+    "family": [
+      "2 Kings 24",
+      "Hebrews 6"
+    ],
+    "private": [
+      "Joel 3",
+      "Psalms 143"
+    ]
+  },
+  "11-12": {
+    "family": [
+      "2 Kings 25",
+      "Hebrews 7"
+    ],
+    "private": [
+      "Amos 1",
+      "Psalms 144"
+    ]
+  },
+  "11-13": {
+    "family": [
+      "1 Chronicles 1-2",
+      "Hebrews 8"
+    ],
+    "private": [
+      "Amos 2",
+      "Psalms 145"
+    ]
+  },
+  "11-14": {
+    "family": [
+      "1 Chronicles 3-4",
+      "Hebrews 9"
+    ],
+    "private": [
+      "Amos 3",
+      "Psalms 146-147"
+    ]
+  },
+  "11-15": {
+    "family": [
+      "1 Chronicles 5-6",
+      "Hebrews 10"
+    ],
+    "private": [
+      "Amos 4",
+      "Psalms 148-150"
+    ]
+  },
+  "11-16": {
+    "family": [
+      "1 Chronicles 7-8",
+      "Hebrews 11"
+    ],
+    "private": [
+      "Amos 5",
+      "Luke 1:1-38"
+    ]
+  },
+  "11-17": {
+    "family": [
+      "1 Chronicles 9-10",
+      "Hebrews 12"
+    ],
+    "private": [
+      "Amos 6",
+      "Luke 1:39-80"
+    ]
+  },
+  "11-18": {
+    "family": [
+      "1 Chronicles 11-12",
+      "Hebrews 13"
+    ],
+    "private": [
+      "Amos 7",
+      "Luke 2"
+    ]
+  },
+  "11-19": {
+    "family": [
+      "1 Chronicles 13-14",
+      "James 1"
+    ],
+    "private": [
+      "Amos 8",
+      "Luke 3"
+    ]
+  },
+  "11-20": {
+    "family": [
+      "1 Chronicles 15",
+      "James 2"
+    ],
+    "private": [
+      "Amos 9",
+      "Luke 4"
+    ]
+  },
+  "11-21": {
+    "family": [
+      "1 Chronicles 16",
+      "James 3"
+    ],
+    "private": [
+      "Obadiah 1",
+      "Luke 5"
+    ]
+  },
+  "11-22": {
+    "family": [
+      "1 Chronicles 17",
+      "James 4"
+    ],
+    "private": [
+      "Jonah 1",
+      "Luke 6"
+    ]
+  },
+  "11-23": {
+    "family": [
+      "1 Chronicles 18",
+      "James 5"
+    ],
+    "private": [
+      "Jonah 2",
+      "Luke 7"
+    ]
+  },
+  "11-24": {
+    "family": [
+      "1 Chronicles 19-20",
+      "1 Peter 1"
+    ],
+    "private": [
+      "Jonah 3",
+      "Luke 8"
+    ]
+  },
+  "11-25": {
+    "family": [
+      "1 Chronicles 21",
+      "1 Peter 2"
+    ],
+    "private": [
+      "Jonah 4",
+      "Luke 9"
+    ]
+  },
+  "11-26": {
+    "family": [
+      "1 Chronicles 22",
+      "1 Peter 3"
+    ],
+    "private": [
+      "Micah 1",
+      "Luke 10"
+    ]
+  },
+  "11-27": {
+    "family": [
+      "1 Chronicles 23",
+      "1 Peter 4"
+    ],
+    "private": [
+      "Micah 2",
+      "Luke 11"
+    ]
+  },
+  "11-28": {
+    "family": [
+      "1 Chronicles 24-25",
+      "1 Peter 5"
+    ],
+    "private": [
+      "Micah 3",
+      "Luke 12"
+    ]
+  },
+  "11-29": {
+    "family": [
+      "1 Chronicles 26-27",
+      "2 Peter 1"
+    ],
+    "private": [
+      "Micah 4",
+      "Luke 13"
+    ]
+  },
+  "11-30": {
+    "family": [
+      "1 Chronicles 28",
+      "2 Peter 2"
+    ],
+    "private": [
+      "Micah 5",
+      "Luke 14"
+    ]
+  },
+  "12-01": {
+    "family": [
+      "1 Chronicles 29",
+      "2 Peter 3"
+    ],
+    "private": [
+      "Micah 6",
+      "Luke 15"
+    ]
+  },
+  "12-02": {
+    "family": [
+      "2 Chronicles 1",
+      "1 John 1"
+    ],
+    "private": [
+      "Micah 7",
+      "Luke 16"
+    ]
+  },
+  "12-03": {
+    "family": [
+      "2 Chronicles 2",
+      "1 John 2"
+    ],
+    "private": [
+      "Nahum 1",
+      "Luke 17"
+    ]
+  },
+  "12-04": {
+    "family": [
+      "2 Chronicles 3-4",
+      "1 John 3"
+    ],
+    "private": [
+      "Nahum 2",
+      "Luke 18"
+    ]
+  },
+  "12-05": {
+    "family": [
+      "2 Chronicles 5-6:11",
+      "1 John 4"
+    ],
+    "private": [
+      "Nahum 3",
+      "Luke 19"
+    ]
+  },
+  "12-06": {
+    "family": [
+      "2 Chronicles 6:12-42",
+      "1 John 5"
+    ],
+    "private": [
+      "Habakkuk 1",
+      "Luke 20"
+    ]
+  },
+  "12-07": {
+    "family": [
+      "2 Chronicles 7",
+      "2 John 1"
+    ],
+    "private": [
+      "Habakkuk 2",
+      "Luke 21"
+    ]
+  },
+  "12-08": {
+    "family": [
+      "2 Chronicles 8",
+      "3 John 1"
+    ],
+    "private": [
+      "Habakkuk 3",
+      "Luke 22"
+    ]
+  },
+  "12-09": {
+    "family": [
+      "2 Chronicles 9",
+      "Jude 1"
+    ],
+    "private": [
+      "Zephaniah 1",
+      "Luke 23"
+    ]
+  },
+  "12-10": {
+    "family": [
+      "2 Chronicles 10",
+      "Revelation 1"
+    ],
+    "private": [
+      "Zephaniah 2",
+      "Luke 24"
+    ]
+  },
+  "12-11": {
+    "family": [
+      "2 Chronicles 11-12",
+      "Revelation 2"
+    ],
+    "private": [
+      "Zephaniah 3",
+      "John 1"
+    ]
+  },
+  "12-12": {
+    "family": [
+      "2 Chronicles 13",
+      "Revelation 3"
+    ],
+    "private": [
+      "Haggai 1",
+      "John 2"
+    ]
+  },
+  "12-13": {
+    "family": [
+      "2 Chronicles 14-15",
+      "Revelation 4"
+    ],
+    "private": [
+      "Haggai 2",
+      "John 3"
+    ]
+  },
+  "12-14": {
+    "family": [
+      "2 Chronicles 16",
+      "Revelation 5"
+    ],
+    "private": [
+      "Zechariah 1",
+      "John 4"
+    ]
+  },
+  "12-15": {
+    "family": [
+      "2 Chronicles 17",
+      "Revelation 6"
+    ],
+    "private": [
+      "Zechariah 2",
+      "John 5"
+    ]
+  },
+  "12-16": {
+    "family": [
+      "2 Chronicles 18",
+      "Revelation 7"
+    ],
+    "private": [
+      "Zechariah 3",
+      "John 6"
+    ]
+  },
+  "12-17": {
+    "family": [
+      "2 Chronicles 19-20",
+      "Revelation 8"
+    ],
+    "private": [
+      "Zechariah 4",
+      "John 7"
+    ]
+  },
+  "12-18": {
+    "family": [
+      "2 Chronicles 21",
+      "Revelation 9"
+    ],
+    "private": [
+      "Zechariah 5",
+      "John 8"
+    ]
+  },
+  "12-19": {
+    "family": [
+      "2 Chronicles 22-23",
+      "Revelation 10"
+    ],
+    "private": [
+      "Zechariah 6",
+      "John 9"
+    ]
+  },
+  "12-20": {
+    "family": [
+      "2 Chronicles 24",
+      "Revelation 11"
+    ],
+    "private": [
+      "Zechariah 7",
+      "John 10"
+    ]
+  },
+  "12-21": {
+    "family": [
+      "2 Chronicles 25",
+      "Revelation 12"
+    ],
+    "private": [
+      "Zechariah 8",
+      "John 11"
+    ]
+  },
+  "12-22": {
+    "family": [
+      "2 Chronicles 26",
+      "Revelation 13"
+    ],
+    "private": [
+      "Zechariah 9",
+      "John 12"
+    ]
+  },
+  "12-23": {
+    "family": [
+      "2 Chronicles 27-28",
+      "Revelation 14"
+    ],
+    "private": [
+      "Zechariah 10",
+      "John 13"
+    ]
+  },
+  "12-24": {
+    "family": [
+      "2 Chronicles 29",
+      "Revelation 15"
+    ],
+    "private": [
+      "Zechariah 11",
+      "John 14"
+    ]
+  },
+  "12-25": {
+    "family": [
+      "2 Chronicles 30",
+      "Revelation 16"
+    ],
+    "private": [
+      "Zechariah 12-13:1",
+      "John 15"
+    ]
+  },
+  "12-26": {
+    "family": [
+      "2 Chronicles 31",
+      "Revelation 17"
+    ],
+    "private": [
+      "Zechariah 13:2-9",
+      "John 16"
+    ]
+  },
+  "12-27": {
+    "family": [
+      "2 Chronicles 32",
+      "Revelation 18"
+    ],
+    "private": [
+      "Zechariah 14",
+      "John 17"
+    ]
+  },
+  "12-28": {
+    "family": [
+      "2 Chronicles 33",
+      "Revelation 19"
+    ],
+    "private": [
+      "Malachi 1",
+      "John 18"
+    ]
+  },
+  "12-29": {
+    "family": [
+      "2 Chronicles 34",
+      "Revelation 20"
+    ],
+    "private": [
+      "Malachi 2",
+      "John 19"
+    ]
+  },
+  "12-30": {
+    "family": [
+      "2 Chronicles 35",
+      "Revelation 21"
+    ],
+    "private": [
+      "Malachi 3",
+      "John 20"
+    ]
+  },
+  "12-31": {
+    "family": [
+      "2 Chronicles 36",
+      "Revelation 22"
+    ],
+    "private": [
+      "Malachi 4",
+      "John 21"
+    ]
+  }
+}
