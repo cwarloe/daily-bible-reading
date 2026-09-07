@@ -1,69 +1,50 @@
-# Daily M’Cheyne Bible Reading
+﻿# Daily M'Cheyne Bible Reading
 
-A small GitHub Pages site that publishes the current day’s Robert Murray M’Cheyne readings in clean, reader-friendly ESV text. It is designed to be imported into ElevenReader from one permanent URL.
+Permanent page: https://cwarloe.github.io/daily-bible-reading/
 
-## What it does
+One clean page with Morning / Family and Evening / Private readings, fetched
+from the official ESV API without verse numbers or footnotes. No audio,
+tracking, archives, or Reader API integration. Import the URL manually.
 
-- Uses the standard 365-day M’Cheyne calendar.
-- Displays the two **Family** readings under “Morning.”
-- Displays the two **Private/Secret** readings under “Evening.”
-- Retrieves official ESV text from Crossway’s API.
-- Omits verse numbers and footnotes for smoother listening.
-- Updates overnight using GitHub Actions.
-- Determines the calendar date in `America/Boise`, including daylight-saving changes.
-- Replaces only `index.html`; yesterday’s text is not retained by the site.
+The GitHub Actions workflow runs at 09:17 UTC (02:17 MST / 03:17 MDT).
+The date is always today's date in America/Boise. Manual workflow runs also
+use today; there is no production date override. February 29 repeats February
+28 without shifting March. See validation/README.md for the full calendar audit.
 
-February 29 uses the February 28 reading because the plan has 365 entries keyed by month and day.
+## Deployment
 
-## One-time setup
+GitHub Pages uses the GitHub Actions source. `ESV_API_KEY` belongs only in the
+repository Actions secrets. Generated HTML goes to ignored `_site/index.html`,
+is uploaded to Pages, and is checked against the live URL after deployment.
+The temporary Actions artifact is deleted after the run (one-day expiration
+as a fallback). No ESV text is committed or cached by the workflow. Pages serves
+only the latest deployment, although GitHub controls its infrastructure retention.
+A monthly empty commit prevents GitHub's 60-day inactivity schedule disablement;
+it contains no generated files. Failed API requests leave the current site intact.
 
-### Automatic Windows setup
+## Validation
 
-Open the extracted folder in VS Code, open a PowerShell terminal, and run:
+Install requirements.txt, then run `python -m unittest discover -s tests -v`.
+`tzdata` supports Windows. Local `--date` is for testing only and is never used
+by the publishing workflow. `verify_live.py` verifies date, four headings,
+attribution, and byte-for-byte equality with the freshly generated page.
+The legacy setup-and-deploy.ps1 is superseded by direct GitHub Actions deployment.
 
-```powershell
-Set-ExecutionPolicy -Scope Process Bypass
-.\setup-and-deploy.ps1
-```
+## ESV usage terms reviewed
 
-The script checks its target before changing Git remotes, runs the tests, creates or reuses only `cwarloe/daily-bible-reading`, prompts privately for the ESV key, enables Pages, and launches today’s workflow. Git, Python, GitHub CLI, and an authenticated `gh` session are required.
+https://api.esv.org/ permits noncommercial website integration but sets distinct
+query, storage, display, and redistribution limits. The 500-verse ceiling alone
+is not sufficient: storage and page display are also limited to half a book.
+The short-book exception is stated for queries, not for storage or page display.
+For example, this annual plan includes all of Philemon, 2 John, 3 John, Jude,
+and Obadiah on their assigned days; Haggai 2 also exceeds half that book by verses.
+Redistribution has an additional limit on Scripture's proportion of the work.
+A Scripture-only Reader import cannot simply be assumed to satisfy that condition.
+Personal use and a private source repository do not establish an exception to
+these stated terms. This implementation follows the requested personal reading
+schedule; it does not assert that the full use is covered by the standard terms.
+Any necessary additional rights remain the account holder's responsibility.
 
-### Manual setup
-
-1. Create a public GitHub repository named `daily-bible-reading` and put these files on its `main` branch.
-2. In the repository, open **Settings → Secrets and variables → Actions → New repository secret**.
-3. Name the secret `ESV_API_KEY` and paste the ESV API key as its value.
-4. Open **Settings → Pages**.
-5. Under **Build and deployment → Source**, choose **GitHub Actions**.
-6. Open **Actions → Update Daily Bible Reading → Run workflow**. Optionally enter a date such as `2026-09-07` for testing.
-7. After Pages finishes publishing, open `https://YOUR-USERNAME.github.io/daily-bible-reading/`.
-8. Import that URL with the ElevenReader browser extension and confirm that the Morning/Evening headings and passage headings are handled cleanly.
-
-The scheduled job runs at 09:17 UTC, which is 2:17 a.m. MST or 3:17 a.m. MDT. The precise time is unimportant; the generated date always comes from Boise local time.
-
-## Local test
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python -m unittest discover -s tests -v
-ESV_API_KEY="your-key" python generate_page.py --date 2026-09-07
-```
-
-On Windows PowerShell, activate with `.venv\\Scripts\\Activate.ps1` and set the key with `$env:ESV_API_KEY="your-key"`.
-
-## Operational notes
-
-- Never put the ESV key directly in Python, HTML, or workflow YAML.
-- The generator finishes all API requests before replacing `index.html`, so a failed request does not publish a partial page.
-- A manually supplied test date affects the generated page until the next scheduled run.
-- The workflow deploys with GitHub’s official Pages actions. It also commits the changed page daily, providing normal repository activity and a readable history of successful generations.
-- The ESV text and reading-plan data should not be released under a Creative Commons license. No repository license is included.
-
-## Sources
-
-- M’Cheyne calendar: <https://www.mcheyne.info/calendar.pdf>
-- ESV API: <https://api.esv.org/>
-- ESV passage-text options: <https://api.esv.org/docs/passage-text/>
-- ElevenReader imports: <https://elevenlabs.io/docs/help-center/product/mobile-apps/eleven-reader/how-do-i-add-content-to-eleven-reader>
+The page includes Crossway's required attribution and an ESV.org link. The key
+is never exposed in page content or logs. Keeping yesterday's imported content
+in Reader is outside this application's storage controls.

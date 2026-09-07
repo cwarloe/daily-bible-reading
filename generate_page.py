@@ -8,16 +8,18 @@ import json
 import os
 import re
 import sys
-from datetime import date, datetime
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 
 ROOT = Path(__file__).resolve().parent
 PLAN_PATH = ROOT / "mcheyne.json"
-OUTPUT_PATH = ROOT / "index.html"
+OUTPUT_PATH = ROOT / "_site" / "index.html"
 ESV_ENDPOINT = "https://api.esv.org/v3/passage/text/"
 BOISE = ZoneInfo("America/Boise")
 
@@ -43,6 +45,16 @@ def load_plan(path: Path = PLAN_PATH) -> dict[str, dict[str, list[str]]]:
         plan = json.load(source)
     if len(plan) != 365:
         raise ValueError(f"Expected 365 calendar entries; found {len(plan)}")
+    expected = {(date(2025, 1, 1) + timedelta(days=i)).strftime("%m-%d") for i in range(365)}
+    if set(plan) != expected:
+        raise ValueError("Schedule must contain every non-leap calendar date")
+    for key, day in plan.items():
+        if set(day) != {"family", "private"} or any(
+            not isinstance(refs, list) or len(refs) != 2 or
+            any(not isinstance(ref, str) or not ref.strip() for ref in refs)
+            for refs in day.values()
+        ):
+            raise ValueError(f"Invalid reading entry: {key}")
     return plan
 
 
@@ -68,6 +80,8 @@ def fetch_passage(session: requests.Session, api_key: str, reference: str) -> st
     response.raise_for_status()
     payload = response.json()
     passages = payload.get("passages", [])
+    if not isinstance(passages, list) or not all(isinstance(part, str) for part in passages):
+        raise RuntimeError(f"Invalid ESV response for {reference}")
     text = "\n\n".join(part.strip() for part in passages if part.strip()).strip()
     if not text:
         raise RuntimeError(f"The ESV API returned no text for {reference}")
@@ -109,6 +123,7 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="reading-date" content="{reading_date.isoformat()}">
   <meta name="description" content="Today's M'Cheyne Bible readings in the ESV">
   <title>M’Cheyne Bible Reading — {html.escape(readable_date)}</title>
   <style>
@@ -166,10 +181,15 @@ def main() -> int:
 
     texts: dict[str, list[str]] = {"family": [], "private": []}
     with requests.Session() as session:
+        session.mount("https://", HTTPAdapter(max_retries=Retry(
+            total=3, backoff_factor=2, status_forcelist=[429, 500, 502, 503, 504],
+            allowed_methods=["GET"],
+        )))
         for track in texts:
             texts[track] = [fetch_passage(session, api_key, ref) for ref in plan[track]]
 
     page = render_page(reading_date, plan, texts)
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     temporary = OUTPUT_PATH.with_suffix(".html.tmp")
     temporary.write_text(page, encoding="utf-8")
     temporary.replace(OUTPUT_PATH)
