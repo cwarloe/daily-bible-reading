@@ -2,8 +2,10 @@
 
 on:
   schedule:
-    # 02:17 MST / 03:17 MDT. Date is always calculated in America/Boise.
-    - cron: "17 9 * * *"
+    # Primary: 02:17 MST / 03:17 MDT; backups two and three hours later.
+    # Multiple attempts reduce the impact of a delayed/dropped schedule event.
+    # Every attempt calculates today's date in America/Boise.
+    - cron: "17 9,11,12 * * *"
   workflow_dispatch:
 
 permissions:

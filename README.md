@@ -6,7 +6,11 @@ One clean page with Morning / Family and Evening / Private readings, fetched
 from the official ESV API without verse numbers or footnotes. No audio,
 tracking, archives, or Reader API integration. Import the URL manually.
 
-The GitHub Actions workflow runs at 09:17 UTC (02:17 MST / 03:17 MDT).
+The GitHub Actions workflow runs at 09:17 UTC (02:17 MST / 03:17 MDT),
+with backup runs at 11:17 and 12:17 UTC (05:17 and 06:17 MDT;
+04:17 and 05:17 MST). Each attempt regenerates and verifies the current page.
+GitHub can delay or drop scheduled events; these backups reduce the impact of
+a missed trigger but do not guarantee delivery by a particular time.
 The date is always today's date in America/Boise. Manual workflow runs also
 use today; there is no production date override. February 29 repeats February
 28 without shifting March. See validation/README.md for the full calendar audit.
