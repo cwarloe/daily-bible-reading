@@ -1,4 +1,4 @@
-﻿# Daily M'Cheyne Bible Reading
+# Daily M'Cheyne Bible Reading
 
 Permanent page: https://cwarloe.github.io/daily-bible-reading/
 
@@ -6,7 +6,7 @@ One clean page with Morning / Family and Evening / Private readings, fetched
 from the official ESV API without verse numbers or footnotes. No audio,
 tracking, archives, or Reader API integration. Import the URL manually.
 
-The GitHub Actions workflow runs once daily at 09:17 UTC (02:17 MST / 03:17 MDT).
+The GitHub Actions workflow runs once daily at 00:05 America/Boise.
 The date is always today's date in America/Boise. Manual workflow runs also
 use today; there is no production date override. February 29 repeats February
 28 without shifting March. See validation/README.md for the full calendar audit.

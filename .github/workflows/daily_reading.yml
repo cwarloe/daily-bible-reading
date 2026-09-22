@@ -1,9 +1,10 @@
-﻿name: Update Daily Bible Reading
+name: Update Daily Bible Reading
 
 on:
   schedule:
-    # 02:17 MST / 03:17 MDT. Date is always calculated in America/Boise.
-    - cron: "17 9 * * *"
+    # Just after midnight Boise time, year-round (DST handled by timezone).
+    - cron: "5 0 * * *"
+      timezone: America/Boise
   workflow_dispatch:
 
 permissions:
