@@ -2,9 +2,10 @@
 
 Permanent page: https://cwarloe.github.io/daily-bible-reading/
 
-One clean page with Morning / Family and Evening / Private readings, fetched
-from the official ESV API without verse numbers or footnotes. No audio,
-tracking, archives, or Reader API integration. Import the URL manually.
+One clean page with today's four readings: each Bible reference followed by
+the ESV text. No verse numbers, footnotes, section headings, or family/private
+labels. No audio, tracking, archives, or Reader API integration. Import the
+URL manually.
 
 The GitHub Actions workflow runs once daily at 00:05 America/Boise.
 The date is always today's date in America/Boise. Manual workflow runs also
@@ -26,7 +27,7 @@ it contains no generated files. Failed API requests leave the current site intac
 
 Install requirements.txt, then run `python -m unittest discover -s tests -v`.
 `tzdata` supports Windows. Local `--date` is for testing only and is never used
-by the publishing workflow. `verify_live.py` verifies date, four headings,
+by the publishing workflow. `verify_live.py` verifies date, the four references,
 attribution, and byte-for-byte equality with the freshly generated page.
 The legacy setup-and-deploy.ps1 is superseded by direct GitHub Actions deployment.
 

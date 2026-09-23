@@ -39,8 +39,14 @@ class GeneratorTests(unittest.TestCase):
         texts = {"family": ["First paragraph.\n\nSecond.", "Safe <text>"], "private": ["Text", "Text"]}
         page = generate_page.render_page(date(2026, 1, 1), plan, texts)
         self.assertIn("<!doctype html>", page)
-        self.assertIn("Morning — Family Reading", page)
-        self.assertIn("Evening — Private Reading", page)
+        self.assertIn('<p class="reference">Genesis 1</p>', page)
+        self.assertIn('<p class="reference">Matthew 1</p>', page)
+        self.assertIn('<p class="reference">Ezra 1</p>', page)
+        self.assertIn('<p class="reference">Acts 1</p>', page)
+        self.assertNotIn("Morning", page)
+        self.assertNotIn("Evening", page)
+        self.assertNotIn("Family Reading", page)
+        self.assertNotIn("Private Reading", page)
         self.assertIn("Safe &lt;text&gt;", page)
         self.assertIn("ESV.org", page)
 
@@ -83,7 +89,9 @@ class AnnualAuditTests(unittest.TestCase):
         self.assertEqual('First.\n\nSecond.',
                          generate_page.fetch_passage(session, 'test-only', 'Jeremiah 36; Jeremiah 45'))
         options = session.get.call_args.kwargs['params']
-        for key in ['include-verse-numbers', 'include-first-verse-numbers', 'include-footnotes', 'include-footnote-body', 'include-short-copyright', 'include-copyright']:
+        for key in ['include-verse-numbers', 'include-first-verse-numbers', 'include-footnotes',
+                    'include-footnote-body', 'include-headings', 'include-short-copyright',
+                    'include-copyright']:
             self.assertEqual('false', options[key])
         session.get.return_value.json.return_value = {'passages': []}
         with self.assertRaises(RuntimeError):

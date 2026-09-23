@@ -69,7 +69,7 @@ def fetch_passage(session: requests.Session, api_key: str, reference: str) -> st
             "include-first-verse-numbers": "false",
             "include-footnotes": "false",
             "include-footnote-body": "false",
-            "include-headings": "true",
+            "include-headings": "false",
             "include-short-copyright": "false",
             "include-copyright": "false",
             "include-passage-horizontal-lines": "false",
@@ -100,25 +100,25 @@ def text_to_html(text: str) -> str:
     return "\n".join(rendered)
 
 
-def reading_section(title: str, references: list[str], texts: list[str]) -> str:
+def day_passages(plan: dict[str, list[str]], texts: dict[str, list[str]]) -> list[tuple[str, str]]:
+    """Return today's readings in plan order without family/private labels."""
     passages = []
-    for reference, text in zip(references, texts, strict=True):
-        passages.append(
-            f'''<section class="passage">
-        <h2>{html.escape(reference)}</h2>
-        {text_to_html(text)}
-      </section>'''
-        )
-    return f'''<section class="reading">
-      <h2>{html.escape(title)}</h2>
-      {''.join(passages)}
-    </section>'''
+    for track in ("family", "private"):
+        for reference, text in zip(plan[track], texts[track], strict=True):
+            passages.append((reference, text))
+    return passages
 
 
 def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str, list[str]]) -> str:
     readable_date = f"{reading_date:%A, %B} {reading_date.day}, {reading_date.year}"
-    morning = reading_section("Morning — Family Reading", plan["family"], texts["family"])
-    evening = reading_section("Evening — Private Reading", plan["private"], texts["private"])
+    sections = []
+    for reference, text in day_passages(plan, texts):
+        sections.append(
+            f'''<section class="passage">
+      <p class="reference">{html.escape(reference)}</p>
+      {text_to_html(text)}
+    </section>'''
+        )
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -132,12 +132,9 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
     * {{ box-sizing:border-box; }}
     body {{ margin:0; background:var(--paper); color:var(--ink); font:1.15rem/1.72 Georgia, 'Times New Roman', serif; }}
     main {{ width:min(46rem, calc(100% - 2rem)); margin:0 auto; padding:2.5rem 0 4rem; }}
-    .document-title {{ margin:0; font-size:clamp(1.75rem, 6vw, 2.6rem); line-height:1.15; }}
-    .date {{ margin:.45rem 0 3rem; color:var(--muted); }}
-    .reading {{ margin:0 0 4rem; }}
-    .reading > h2 {{ padding-bottom:.45rem; border-bottom:2px solid var(--ink); font-size:1.65rem; }}
-    .passage {{ margin:2.5rem 0 3.25rem; }}
-    .passage h2 {{ margin:0 0 1.2rem; font-size:1.35rem; }}
+    .date {{ margin:0 0 2.5rem; color:var(--muted); }}
+    .passage {{ margin:0 0 3.25rem; }}
+    .reference {{ margin:0 0 1.2rem; font-weight:700; }}
     p {{ margin:0 0 1.15rem; }}
     footer {{ padding-top:1.5rem; border-top:1px solid var(--rule); color:var(--muted); font:0.78rem/1.5 system-ui,sans-serif; }}
     footer a {{ color:inherit; }}
@@ -146,12 +143,8 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
 </head>
 <body>
   <main>
-    <header>
-      <h1 class="document-title">M’Cheyne Bible Reading</h1>
-      <p class="date">{html.escape(readable_date)}</p>
-    </header>
-    {morning}
-    {evening}
+    <p class="date">{html.escape(readable_date)}</p>
+    {''.join(sections)}
     <footer>
       <p>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated into any other language.</p>
       <p>Users may not copy or download more than 500 verses of the ESV Bible or more than one half of any book of the ESV Bible. <a href="https://www.esv.org/">ESV.org</a></p>
