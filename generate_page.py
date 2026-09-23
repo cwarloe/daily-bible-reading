@@ -22,6 +22,7 @@ PLAN_PATH = ROOT / "mcheyne.json"
 OUTPUT_PATH = ROOT / "_site" / "index.html"
 ESV_ENDPOINT = "https://api.esv.org/v3/passage/text/"
 BOISE = ZoneInfo("America/Boise")
+PAGE_TITLE = "M’Cheyne Daily Reading"
 
 
 def target_date(value: str | None = None) -> date:
@@ -126,13 +127,14 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="reading-date" content="{reading_date.isoformat()}">
   <meta name="description" content="Today's M'Cheyne Bible readings in the ESV">
-  <title>M’Cheyne Bible Reading — {html.escape(readable_date)}</title>
+  <title>{html.escape(PAGE_TITLE)} — {html.escape(readable_date)}</title>
   <style>
     :root {{ color-scheme: light; --ink:#20201d; --muted:#67675f; --rule:#deddd5; --paper:#fffefa; }}
     * {{ box-sizing:border-box; }}
     body {{ margin:0; background:var(--paper); color:var(--ink); font:1.15rem/1.72 Georgia, 'Times New Roman', serif; }}
     main {{ width:min(46rem, calc(100% - 2rem)); margin:0 auto; padding:2.5rem 0 4rem; }}
-    .date {{ margin:0 0 2.5rem; color:var(--muted); }}
+    .document-title {{ margin:0; font-size:clamp(1.75rem, 6vw, 2.6rem); line-height:1.15; }}
+    .date {{ margin:.45rem 0 2.5rem; color:var(--muted); }}
     .passage {{ margin:0 0 3.25rem; }}
     .reference {{ margin:0 0 1.2rem; font-weight:700; }}
     p {{ margin:0 0 1.15rem; }}
@@ -143,7 +145,10 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
 </head>
 <body>
   <main>
-    <p class="date">{html.escape(readable_date)}</p>
+    <header>
+      <h1 class="document-title">{html.escape(PAGE_TITLE)}</h1>
+      <p class="date">{html.escape(readable_date)}</p>
+    </header>
     {''.join(sections)}
     <footer>
       <p>Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved. The ESV text may not be quoted in any publication made available to the public by a Creative Commons license. The ESV may not be translated into any other language.</p>

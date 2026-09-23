@@ -39,6 +39,8 @@ class GeneratorTests(unittest.TestCase):
         texts = {"family": ["First paragraph.\n\nSecond.", "Safe <text>"], "private": ["Text", "Text"]}
         page = generate_page.render_page(date(2026, 1, 1), plan, texts)
         self.assertIn("<!doctype html>", page)
+        self.assertIn("M’Cheyne Daily Reading", page)
+        self.assertIn("Thursday, January 1, 2026", page)
         self.assertIn('<p class="reference">Genesis 1</p>', page)
         self.assertIn('<p class="reference">Matthew 1</p>', page)
         self.assertIn('<p class="reference">Ezra 1</p>', page)
