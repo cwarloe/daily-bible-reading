@@ -23,7 +23,6 @@ OUTPUT_PATH = ROOT / "_site" / "index.html"
 ESV_ENDPOINT = "https://api.esv.org/v3/passage/text/"
 BOISE = ZoneInfo("America/Boise")
 PAGE_TITLE = "M’Cheyne Daily Reading"
-PUBLIC_ROOT = "https://cwarloe.github.io/daily-bible-reading"
 
 
 def target_date(value: str | None = None) -> date:
@@ -111,11 +110,6 @@ def day_passages(plan: dict[str, list[str]], texts: dict[str, list[str]]) -> lis
     return passages
 
 
-def share_url(reading_date: date) -> str:
-    """URL that changes every day so importers cannot reuse yesterday's snapshot."""
-    return f"{PUBLIC_ROOT}/{reading_date.isoformat()}/"
-
-
 def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str, list[str]]) -> str:
     readable_date = f"{reading_date:%A, %B} {reading_date.day}, {reading_date.year}"
     sections = []
@@ -126,7 +120,6 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
       {text_to_html(text)}
     </section>'''
         )
-    dated = share_url(reading_date)
     return f'''<!doctype html>
 <html lang="en">
 <head>
@@ -137,7 +130,6 @@ def render_page(reading_date: date, plan: dict[str, list[str]], texts: dict[str,
   <meta http-equiv="Expires" content="0">
   <meta name="reading-date" content="{reading_date.isoformat()}">
   <meta name="description" content="Today's M'Cheyne Bible readings in the ESV">
-  <link rel="canonical" href="{dated}">
   <title>{html.escape(PAGE_TITLE)} — {html.escape(readable_date)}</title>
   <style>
     :root {{ color-scheme: light; --ink:#20201d; --muted:#67675f; --rule:#deddd5; --paper:#fffefa; }}
@@ -206,10 +198,8 @@ def main() -> int:
 
     page = render_page(reading_date, plan, texts)
     write_page(OUTPUT_PATH, page)
-    write_page(OUTPUT_PATH.parent / reading_date.isoformat() / "index.html", page)
     print(f"Generated {OUTPUT_PATH.name} for {reading_date.isoformat()}: "
           f"{', '.join(plan['family'] + plan['private'])}")
-    print(f"Share URL: {share_url(reading_date)}")
     return 0
 
 
