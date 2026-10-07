@@ -7,10 +7,13 @@ the ESV text. No verse numbers, footnotes, section headings, or family/private
 labels. No audio, tracking, archives, or Reader API integration. Import the
 URL manually.
 
-The GitHub Actions workflow runs once daily at 00:05 America/Boise.
-The date is always today's date in America/Boise. Manual workflow runs also
-use today; there is no production date override. February 29 repeats February
-28 without shifting March. See validation/README.md for the full calendar audit.
+The page date is always today's date in America/Boise. GitHub's own 00:05
+schedule is only a backup: it is best-effort and has been starting hours late.
+A Grok automation checks the live page hourly from 00:05 through 05:05
+America/Boise and dispatches this workflow only if the page is still stale.
+Manual workflow runs also use today; there is no production date override.
+February 29 repeats February 28 without shifting March. See
+validation/README.md for the full calendar audit.
 
 ## Deployment
 
