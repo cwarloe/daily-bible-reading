@@ -6,3 +6,5 @@ _site/
 .tools/
 .venv/
 validation/calendar.pdf
+
+.DS_Store
