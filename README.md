@@ -32,7 +32,8 @@ Install requirements.txt, then run `python -m unittest discover -s tests -v`.
 `tzdata` supports Windows. Local `--date` is for testing only and is never used
 by the publishing workflow. `verify_live.py` verifies date, the four references,
 attribution, and byte-for-byte equality with the freshly generated page.
-The legacy setup-and-deploy.ps1 is superseded by direct GitHub Actions deployment.
+Deployment is the GitHub Actions workflow only; the old Windows setup script
+(setup-and-deploy.ps1) was removed and remains in git history.
 
 ## ESV usage terms reviewed
 
