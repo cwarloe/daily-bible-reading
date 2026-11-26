@@ -52,6 +52,30 @@ jobs:
         env:
           PAGE_URL: ${{ steps.deployment.outputs.page_url }}
         run: python verify_live.py
+      # Disabled until the Cloudflare account/project is verified and the
+      # Cloudflare-specific secrets and URL are configured. This stage uses
+      # the same ephemeral _site/ build; it never commits Scripture text.
+      - name: Deploy optional Cloudflare staging copy
+        if: ${{ vars.CLOUDFLARE_DUAL_PUBLISH == 'true' }}
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "${CLOUDFLARE_API_TOKEN:-}" ] || [ -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]; then
+            echo "::error::Cloudflare token/account not configured; GitHub Pages remains live."
+            exit 1
+          fi
+          npm run cloudflare:deploy
+      - name: Verify Cloudflare staging copy
+        if: ${{ vars.CLOUDFLARE_DUAL_PUBLISH == 'true' }}
+        env:
+          PAGE_URL: ${{ vars.CLOUDFLARE_READING_URL }}
+        run: |
+          if [ -z "${PAGE_URL:-}" ]; then
+            echo "::error::Set CLOUDFLARE_READING_URL after the first Cloudflare deploy."
+            exit 1
+          fi
+          python verify_live.py
       - name: Keep the overnight schedule active
         # GitHub disables schedules after 60 days without repository activity.
         # A monthly empty commit contains no Scripture or generated files.

@@ -1,0 +1,9 @@
+{
+  "name": "daily-bible-reading",
+  "private": true,
+  "description": "Cloudflare static deploy command for the generated daily reading",
+  "scripts": {
+    "cloudflare:dry-run": "npx --yes cf@1.0.0-rc.6 deploy ./_site --dry-run",
+    "cloudflare:deploy": "npx --yes cf@1.0.0-rc.6 deploy ./_site"
+  }
+}
