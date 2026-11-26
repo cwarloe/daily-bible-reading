@@ -23,6 +23,13 @@ is uploaded to Pages, and is checked against the live URL after deployment.
 The temporary Actions artifact is deleted after the run (one-day expiration
 as a fallback). No ESV text is committed or cached by the workflow. Pages serves
 only the latest deployment, although GitHub controls its infrastructure retention.
+
+Cloudflare hosting is **prepared but not active**. A disabled, opt-in staging step
+can deploy the same ephemeral `_site/` HTML to Cloudflare after the current Pages
+verification, then verify the Cloudflare response using the existing page checker.
+It remains off until the Cloudflare project, credential secrets and URL are
+confirmed. See [CLOUDFLARE_MIGRATION.md](CLOUDFLARE_MIGRATION.md) for the cutover
+and ESV-rights checks; GitHub Pages is still the production site.
 A monthly empty commit prevents GitHub's 60-day inactivity schedule disablement;
 it contains no generated files. Failed API requests leave the current site intact.
 
